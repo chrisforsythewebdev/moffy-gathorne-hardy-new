@@ -1,10 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;700&display=swap");
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Playfair Display", serif;
   margin: 0;
   padding: 0;
   background-color: white;
   color: black;
 }
+
+body, h1, h2, h3, h4, p, a, span, div {
+  font-family: "Playfair Display", serif !important;
+}
+
 
 .nav-link-custom {
   font-family: "Playfair Display", serif;
