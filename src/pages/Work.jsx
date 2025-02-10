@@ -67,7 +67,6 @@ const Work = () => {
 
   return (
     <div className="container d-flex flex-column justify-content-start vh-100" style={{ marginLeft: "10vw", marginTop: "10vh" }}>
-      <h2 className="fw-bold mb-2" style={{ fontSize: "1.2rem" }}>Selected Works</h2>
       
       <div className="d-flex flex-column gap-1 position-relative">
         {works.map((work, index) => (
