@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import pdf from "../../pdfExtracts/five-dollars-three-minutes.pdf";
+import pdf from "../../pdfExtracts/five-dollars-three-minutes.pdf";
 
 // Import images (Make sure the paths match your file structure)
 import img1 from "../../images/5dollars3minutes/1.png";
@@ -75,11 +75,11 @@ So finally, as she puts it in her essay, “We are so used to seeing women as th
           </button>
 
           {/* Download PDF Button */}
-          {/* <div className="text-center mt-4">
+          <div className="text-center mt-4">
             <a href={pdf} download className="btn btn-outline-dark">
               Download Full Exhibition Text (PDF)
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
    
