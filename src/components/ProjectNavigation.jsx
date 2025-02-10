@@ -6,7 +6,11 @@ const ProjectNavigation = ({ prevWork, nextWork }) => {
   return (
     <div 
       className="d-flex justify-content-between align-items-center px-4 py-3 bg-white"
-      style={{ zIndex: 10 }} 
+      style={{ 
+        position: "relative",
+        zIndex: 20, // Make sure it's above the footer
+        borderTop: "1px solid #ddd", // Add a visual separator
+      }}
     >
       {/* Previous Project */}
       {prevWork ? (
@@ -24,5 +28,6 @@ const ProjectNavigation = ({ prevWork, nextWork }) => {
     </div>
   );
 };
+
 
 export default ProjectNavigation;

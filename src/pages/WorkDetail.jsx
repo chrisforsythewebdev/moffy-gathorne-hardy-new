@@ -1,67 +1,4 @@
-// import React from "react";
-// import { useParams } from "react-router-dom";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import img1 from "../images/testimg.avif";
-// import img2 from "../images/test2jpg.jpg";
-// import img3 from "../images/test3.webp";
-// import img4 from "../images/testimg.avif";
-// import ProjectNavigation from "../components/ProjectNavigation.jsx";
-
-// const works = [
-//   { title: "Project One", image: img1, description: "Description of Project One." },
-//   { title: "Project Two", image: img2, description: "Description of Project Two." },
-//   { title: "Project Three", image: img3, description: "Description of Project Three." },
-//   { title: "Project Four", image: img4, description: "Description of Project Four." },
-// ];
-
-// const WorkDetail = () => {
-//   const { title } = useParams();
-//   const decodedTitle = decodeURIComponent(title);
-//   const workIndex = works.findIndex((work) => work.title === decodedTitle);
-//   const work = works[workIndex];
-
-//   const prevWork = workIndex > 0 ? works[workIndex - 1] : null;
-//   const nextWork = workIndex < works.length - 1 ? works[workIndex + 1] : null;
-
-//   if (!work) {
-//     return <div className="text-center mt-5">Work not found.</div>;
-//   }
-
-//   return (
-//     <div className="container d-flex flex-column min-vh-100 pb-5 mt-5 mt-md-2">
-//       {/* Main Content */}
-//       <div className="text-center mt-5 flex-grow-1">
-//         <h2 className="">{work.title}</h2>
-        
-//         <div className="d-flex justify-content-center">
-//           <img
-//             src={work.image}
-//             alt={work.title}
-//             className="img-fluid mt-3"
-//             style={{
-//               maxWidth: "65vw", // Keep the image within a good size on desktop
-//               maxHeight: "60vh",
-//               height: "auto",
-//               objectFit: "contain",
-//             }}
-//           />
-//         </div>
-        
-//         <p className="mt-3">{work.description}</p>
-//       </div>
-
-//       <div className="mb-5 pb-5">
-//         <ProjectNavigation prevWork={prevWork} nextWork={nextWork} />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default WorkDetail;
-
-
-
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import works from "../data/worksData";
 import ProjectNavigation from "../components/ProjectNavigation";
@@ -88,6 +25,10 @@ const WorkDetail = () => {
   const { title } = useParams();
   const work = works.find((work) => work.title === decodeURIComponent(title));
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [title]);
+
   if (!work) {
     return <div className="text-center mt-5">Work not found.</div>;
   }
@@ -98,12 +39,13 @@ const WorkDetail = () => {
   const nextWork = workIndex < works.length - 1 ? works[workIndex + 1] : null;
 
   return (
-    <div className="container d-flex flex-column min-vh-100">
+    <div className="container d-flex flex-column min-vh-100" style={{ paddingBottom: "80px" }}>
+      {/* Work Component */}
       <div className="flex-grow-1">
         {WorkComponent ? <WorkComponent /> : <div>Work layout missing.</div>}
       </div>
-      
-      {/* Ensure Project Navigation is always visible */}
+
+      {/* Project Navigation */}
       <div className="mt-auto pb-4">
         <ProjectNavigation prevWork={prevWork} nextWork={nextWork} />
       </div>
