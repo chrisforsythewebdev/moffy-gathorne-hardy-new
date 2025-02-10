@@ -59,7 +59,7 @@ const AlmostSomething = () => {
           {/* Download PDF Button */}
           <div className="text-center mt-4">
             <a href={pdf} download className="btn btn-outline-dark">
-              Download Full Exhibition Text (PDF)
+              Download Almost Somethng (PDF)
             </a>
           </div>
         </div>

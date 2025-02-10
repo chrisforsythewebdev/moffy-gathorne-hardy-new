@@ -77,7 +77,7 @@ So finally, as she puts it in her essay, “We are so used to seeing women as th
           {/* Download PDF Button */}
           <div className="text-center mt-4">
             <a href={pdf} download className="btn btn-outline-dark">
-              Download Full Exhibition Text (PDF)
+              Download 5 Dollars for 3 Minutes (PDF)
             </a>
           </div>
         </div>
