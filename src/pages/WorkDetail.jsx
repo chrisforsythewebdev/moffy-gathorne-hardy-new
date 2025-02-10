@@ -93,16 +93,23 @@ const WorkDetail = () => {
   }
 
   const WorkComponent = workComponents[work.component];
+  const workIndex = works.indexOf(work);
+  const prevWork = workIndex > 0 ? works[workIndex - 1] : null;
+  const nextWork = workIndex < works.length - 1 ? works[workIndex + 1] : null;
 
   return (
-    <div className="container">
-      {WorkComponent ? <WorkComponent /> : <div>Work layout missing.</div>}
-      <ProjectNavigation
-        prevWork={works[works.indexOf(work) - 1]}
-        nextWork={works[works.indexOf(work) + 1]}
-      />
+    <div className="container d-flex flex-column min-vh-100">
+      <div className="flex-grow-1">
+        {WorkComponent ? <WorkComponent /> : <div>Work layout missing.</div>}
+      </div>
+      
+      {/* Ensure Project Navigation is always visible */}
+      <div className="mt-auto pb-4">
+        <ProjectNavigation prevWork={prevWork} nextWork={nextWork} />
+      </div>
     </div>
   );
 };
 
 export default WorkDetail;
+

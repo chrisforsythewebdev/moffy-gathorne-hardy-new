@@ -38,3 +38,9 @@ body, h1, h2, h3, h4, p, a, span, div {
 .contact-link:hover {
   color: #6c757d; /* Grey color matching Navbar */
 }
+
+@media (max-width: 768px) {
+  iframe {
+    height: 400px; /* Reduce height for mobile */
+  }
+}
