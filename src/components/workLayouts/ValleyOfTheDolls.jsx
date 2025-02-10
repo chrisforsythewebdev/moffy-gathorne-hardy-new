@@ -5,13 +5,13 @@ const ValleyOfTheDolls = () => {
   return (
     <div className="container py-5">
       <div className="row justify-content-center">
-        <div className="col-lg-8 col-md-10 col-sm-12">
-          <h2><strong>Title:</strong> Valley of the Dolls</h2>
-          <p><strong>Exhibition by:</strong> Julia Thompson</p>
-          <p><strong>Location:</strong> Little House in Los Angeles</p>
-          <p><strong>Dates:</strong> July 27th - September 21st, 2024</p>
-          <p><strong>Photography by:</strong> Matthew Kavanagh and Santi Hurtado</p>
-          
+        <div className="col-lg-8 col-md-10 col-sm-12 mt-5">
+          <p><strong>Julia Thompson’s solo show “Valley of the Dolls”</strong></p>
+          <p>Dries Van Noten’s Little House in Los Angeles</p>
+          <p>July 27th - September 21st, 2024</p>
+          <p>Photography by: Matthew Kavanagh and Santi Hurtado</p>
+
+          {/* Image Gallery */}
           <div className="image-gallery my-4 text-center">
             <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-A.jpg")} alt="Exhibition 1" className="img-fluid mb-3" />
             <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-B.jpg")} alt="Exhibition 2" className="img-fluid mb-3" />
@@ -19,61 +19,66 @@ const ValleyOfTheDolls = () => {
             <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-D.jpg")} alt="Exhibition 4" className="img-fluid mb-3" />
             <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-E.jpg")} alt="Exhibition 5" className="img-fluid mb-3" />
           </div>
-          
-          <h3>Exhibition Overview</h3>
+
           <p>
-            Julia Thompson’s solo show, <em>Valley of the Dolls</em>, explores themes of reliability and deixis, 
-            questioning the intelligibility of lived experiences. She uses materials such as candy, syrup, soda, 
-            perfume, and vodka, which are prone to slippage and degradation. These elements exist in porous spaces, 
-            resisting definitive barriers.
+            Julia Thompson’s work undermines the reliability of the deixis on which the intelligible lived 
+            experience depends. She makes use of candy, syrup, soda, perfume and vodka: decomposing, 
+            degradable materials that are prone to slippage, unfixed in space, porous. They lack the defence of a 
+            definitive barrier to their environment, troubling the distinction between internal and external, while 
+            the repetitive allusion to the mechanism of memory and its stimulants, smell and sound, engenders 
+            another kind of porosity that transgresses even that most closely held human idea: that past and 
+            present are distinct.
           </p>
+
           <p>
-            Her works incorporate synthetic and organic elements that invite interaction, yet simultaneously repel 
-            and dissolve under physical contact. Thompson is interested in how we attribute meaning to objects, 
-            words, and sensations—how certainty can be misplaced, and understanding remains elusive.
+            Here is a Valley wherein then is a past made ever-present via its exhumation, all time pregnant with 
+            the rest of itself. This mixed metaphor is intentional, and imagery which seems at first to be opposing 
+            is not so: the very business of remembering involves either a grave-digging or a bringing (back) to 
+            life of an experience whose bizarre status we lack the grammar to describe, that which has passed, 
+            which is not now — to use that word which pulls the rug from under one’s feet and leaves one 
+            breathless and grappling — and in other words, is closer in its condition to being dead.
           </p>
-          
-          <h3>Artist Statement</h3>
-          <blockquote>
-            "There is something about viscosity, the way certain substances hold together while others separate. 
-            I like to think of this tension when constructing a piece—where the layers hold but might eventually break apart."
-          </blockquote>
+
           <p>
-            By working with resin, latex, and found objects, Thompson creates sculptures that engage with transience, 
-            drawing connections between personal history, societal narratives, and the fragility of memory.
+            Julia has referred to the obsessive nature of nostalgia, the affect which renders time a monolith, 
+            that makes the present concomitant with all its pasts, as a “memory disease”, and much of her work 
+            is a struggle against the impossibility of getting outside of a moment in time while existing in the 
+            shadow of this notion. 
           </p>
-          
-          <h3>Featured Works</h3>
-          <ul>
-            <li><strong>Sweet Nothings</strong> – A suspended installation of crystallized sugar sculptures, melting over time.</li>
-            <li><strong>Plastic Devotion</strong> – A resin-cast mannequin infused with perfume and pigment, referencing beauty standards and artificiality.</li>
-            <li><strong>Drip Feed</strong> – A series of hanging IV bags filled with neon-colored syrup, slowly releasing liquid onto a mirrored surface.</li>
-            <li><strong>The Perfume Counter</strong> – An interactive display of vintage perfume bottles filled with unconventional, decaying scents.</li>
-          </ul>
-          
-          <h3>Critical Reception</h3>
+
           <p>
-            Critics have drawn comparisons between <em>Valley of the Dolls</em> and the 1966 novel by Jacqueline Susann, 
-            noting the exhibition’s shared concerns with excess, illusion, and disintegration. Thompson's work is an 
-            inquiry into both material and metaphorical instability—her sculptures seem to ask: what happens when the familiar starts to collapse?
+            Derrida expresses a similar sentiment in his <i>Archive Fever</i> (the original title of which is <i>Mal d’archive</i>, 
+            translatable as pain, sickness, or illness of the archive): that to engage with archives, containers for the 
+            material evidence of lived experience and of memory, is to fetishise them. This fetishisation seems to 
+            presuppose a subject-object relation in our favour, archive passive and we active, but he suggests, as 
+            does Julia in her own way, that what occurs is the obverse of this coin: that we are seduced by the 
+            archive.
           </p>
-          
-          <h3>Curator’s Note</h3>
+
           <p>
-            "Thompson’s ability to balance attraction and repulsion in her materials creates an emotional and sensory push-pull. 
-            The work invites audiences in, only to remind them of its impermanence." – Maria Levinson, Curator
+            The ensuing fever, characterised as the insatiable, endlessly regressive reaching back in time, is 
+            addictive, compulsive, engendering a spiralling through and ultimately past information. Derrida 
+            presents the inability to arrive at that which, temporally, would be an end point, in reverse: as a 
+            search for a beginning, an initial, elusive trace, an urtext that can never be located.
           </p>
-          
-          <h3>Visiting Information</h3>
-          <p><strong>Gallery Hours:</strong></p>
-          <ul>
-            <li>Tuesday – Saturday: 11 AM – 6 PM</li>
-            <li>Sunday: 12 PM – 4 PM</li>
-            <li>Closed Mondays</li>
-          </ul>
-          
-          <p><strong>Address:</strong> Little House Gallery, 8498 Sunset Blvd, Los Angeles, CA 90069</p>
-          <p><strong>For press inquiries:</strong> info@littlehousegallery.com</p>
+
+          <p>
+            Speaking then of birth, death, burial and exhumation, this articulation of the end point of archival 
+            research (or of attempts at tracing a memory back to its genesis) as a beginning highlights the aporia 
+            inherent in the exercise itself, the detection of a trace always begetting a predecessor, inaccessibility 
+            inherent to notions of origin. What this reveals is the archive’s — and the memory’s — status as 
+            epistemological desert, unable to furnish us with that which it claims to provide, no instance of 
+            information, no feeling, no sense of the atmosphere of a moment in one’s life able to serve as point 
+            of arrival.
+          </p>
+
+          <p>
+            Julia of course knows this (in the sense that she feels it), and with this work is parsing it out, each 
+            sculpture an experiment in marking time. She is attempting to form an anatomy of memory, and that 
+            this is a doomed enterprise does not matter. She is not left empty-handed. The attempt itself constitutes 
+            the work, and its impossibility is pre-installed within her practice: it is only by building something 
+            concrete as a stand-in for the unreachable that she can make her own reaching visible.
+          </p>
         </div>
       </div>
     </div>

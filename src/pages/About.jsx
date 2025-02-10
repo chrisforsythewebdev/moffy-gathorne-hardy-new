@@ -3,63 +3,58 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const About = () => {
   return (
-    <div className="container my-5 my-md-3 px-4 px-md-5 w-100">
+    <div className="container my-5 my-md-3 px-4 px-md-5 w-100 pb-5">
       {/* Introduction */}
       <div className="row">
-        <div className="col-md-6 mt-5 ms-md-5 mt-md-5 text-center text-md-start">
-          <h2 className="fw-bold mb-5 mb-md-2" style={{ fontSize: "1.8rem", lineHeight: "1.3" }}>
-            Moffy Gathorne-Hardy is a London-born writer, art theorist, and cultural commentator.
+        <div className="col-md-6 mt-5 ms-md-5 mt-md-5">
+          <h2 className="fw-bold mb-4" style={{ fontSize: "1.6rem", lineHeight: "1.3", textAlign: "left" }}>
+            Moffy Gathorne-Hardy is a London-born writer, art theorist, and cultural commentator with one
+            foot in musicology and another in women’s studies.
           </h2>
-          <p className="fst-italic" style={{ fontSize: "1rem", lineHeight: "1.5" }}>
-            With one foot in musicology and another in women’s studies, her work blends feminist 
-            literary theory, semiotics, and post-structuralist thought. She brings traditional 
-            academic inquiry together with a passion for alternative narratives and non-mainstream voices.
+          <p style={{ fontSize: "1rem", lineHeight: "1.5", textAlign: "left" }}>
+            Her undergraduate research focused on Eastern European literature, specifically the function of the
+            chronotope in the short stories and drawings of Bruno Schulz.
           </p>
-        </div>
-
-        {/* Additional Details (Visible on Mobile, Hidden on Desktop) */}
-        <div className="col-md-6 d-md-none mt-3">
-          <p className="text-muted text-center" style={{ fontSize: "0.9rem", lineHeight: "1.4", wordBreak: "break-word" }}>
-            <strong className="text-dark">Undergraduate research:</strong> Eastern European literature, focusing on 
-            the chronotope in the short stories and drawings of Bruno Schulz.
-            <br /><br />
-            <strong className="text-dark">Thesis:</strong> The role of male-coded speech acts in The Beatles' <i>Rubber Soul</i>, 
-            currently expanding into a book-length work.
-            <br /><br />
-            <strong className="text-dark">Research interests:</strong> The ontology of the photograph, image-making and process, 
-            power structures in visibility, and photographic media as narrative tools.
-            <br /><br />
-            <strong className="text-dark">Ongoing projects:</strong> Working on jazz archives (Francine Winham) and editing for <i>A Nice Magazine</i>.
-            <br /><br />
-            <strong className="text-dark">Education:</strong> 
-            <br />
-            MA in History of Art, Columbia University (2023–2024) 
-            <br />
-            BA in Comparative Literature, University College London (2018)
+          <p style={{ fontSize: "1rem", lineHeight: "1.5", textAlign: "left" }}>
+            She wrote her master’s thesis on the role of male- and female-coded speech acts in The Beatles’
+            <i> Rubber Soul</i>, which she is expanding into a book-length work.
           </p>
         </div>
       </div>
 
-      {/* Additional Details (Hidden on Mobile, Pushed Down on Desktop) */}
-      <div className="row mt-2 d-none d-md-block">
-        <div className="col-md-6 ms-md-5 mt-md-3">
-          <p className="text-muted" style={{ fontSize: "0.9rem", lineHeight: "1.4", wordBreak: "break-word" }}>
-            <strong className="text-dark">Undergraduate research:</strong> Eastern European literature, focusing on 
-            the chronotope in the short stories and drawings of Bruno Schulz.
-            <br /><br />
-            <strong className="text-dark">Thesis:</strong> The role of male-coded speech acts in The Beatles' <i>Rubber Soul</i>, 
-            currently expanding into a book-length work.
-            <br /><br />
-            <strong className="text-dark">Research interests:</strong> The ontology of the photograph, image-making and process, 
-            power structures in visibility, and photographic media as narrative tools.
-            <br /><br />
-            <strong className="text-dark">Ongoing projects:</strong> Working on jazz archives (Francine Winham) and editing for <i>A Nice Magazine</i>.
-            <br /><br />
-            <strong className="text-dark">Education:</strong> 
+      {/* Additional Details */}
+      <div className="row mt-3">
+        <div className="col-md-5 ms-md-5">
+          <p style={{ fontSize: "1rem", lineHeight: "1.5", textAlign: "left" }}>
+            Her thinking and writing are largely informed by the decade she spent working as a model that led
+            her to interrogate the relationship between the image-making process and the resulting object. One
+            of her primary areas of interest is the ontological status of the photograph, how it performs the
+            narrativisation or obfuscation of reality, and the extent to which this narrativising force operates
+            beyond the will of those involved in its creation.
+          </p>
+          <p style={{ fontSize: "1rem", lineHeight: "1.5", textAlign: "left" }}>
+            She enjoys working closely with artists to pull out the ideas from their work and develop means of
+            discussing it, making visible in new ways through writing the layers of what is present and encoded
+            in the object or image.
+          </p>
+          <p style={{ fontSize: "1rem", lineHeight: "1.5", textAlign: "left" }}>
+            She is actively involved in the estate of the late jazz photographer and feminist filmmaker Francine
+            Winham, and is currently working towards compiling a book of her photographs.
+          </p>
+          <p style={{ fontSize: "1rem", lineHeight: "1.5", textAlign: "left" }}>
+            She is features editor of <i>A Nice Magazine</i>.
+          </p>
+        </div>
+      </div>
+
+      {/* Education Section - Ensures it doesn't get hidden by footer */}
+      <div className="row mt-5">
+        <div className="col-md-8 ms-md-5 mb-5">
+          <h4 className="fw-bold">Education</h4>
+          <p style={{ fontSize: "1rem", lineHeight: "1.5", textAlign: "left" }}>
+            <strong>MA History and Literature</strong>, Columbia University, 2023-2024
             <br />
-            MA in History of Art, Columbia University (2023–2024) 
-            <br />
-            BA in Comparative Literature, University College London (2018)
+            <strong>BA Comparative Literature</strong>, University College London, 2018-2021
           </p>
         </div>
       </div>
@@ -71,10 +66,16 @@ const About = () => {
             .container {
               padding-left: 15px;
               padding-right: 15px;
+              text-align: left !important;
             }
             p {
-              font-size: 0.85rem;
+              font-size: 1rem;
               line-height: 1.4;
+              text-align: left !important;
+            }
+            h2 {
+              font-size: 1.5rem;
+              text-align: left !important;
             }
           }
         `}

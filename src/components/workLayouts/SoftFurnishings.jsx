@@ -5,13 +5,13 @@ const SoftFurnishing = () => {
   return (
     <div className="container py-5">
       <div className="row justify-content-center">
-        <div className="col-lg-8 col-md-10 col-sm-12">
-          <h2><strong>Title:</strong> Soft Furnishing</h2>
-          <p><strong>Exhibition by:</strong> Eleanor Davies</p>
-          <p><strong>Location:</strong> The Basement Gallery, London</p>
-          <p><strong>Dates:</strong> October 5th - December 12th, 2024</p>
-          <p><strong>Photography by:</strong> Daniel Groves and Annabelle Finch</p>
-          
+        <div className="col-lg-8 col-md-10 col-sm-12 mt-5">
+          <p><strong>Julia Thompson’s solo show “Soft Furnishing”</strong></p>
+          <p>Incubator in London</p>
+          <p>September 20th - October 5th, 2023</p>
+          <p>Photography by: Evie Milsom</p>
+
+          {/* Image Gallery */}
           <div className="image-gallery my-4 text-center">
             <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-A.jpg")} alt="Exhibition 1" className="img-fluid mb-3" />
             <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-B.jpg")} alt="Exhibition 2" className="img-fluid mb-3" />
@@ -19,65 +19,94 @@ const SoftFurnishing = () => {
             <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-D.jpg")} alt="Exhibition 4" className="img-fluid mb-3" />
             <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-E.jpg")} alt="Exhibition 5" className="img-fluid mb-3" />
           </div>
-          
-          <h3>Exhibition Overview</h3>
+
           <p>
-            Eleanor Davies’ solo exhibition, <em>Soft Furnishing</em>, examines the intersection of domesticity, consumption, 
-            and the aesthetics of care. By repurposing materials typically associated with comfort—quilts, upholstery, curtains—Davies 
-            challenges the expectations of home as a stable, secure environment. Instead, her work explores the tensions between 
-            protection and exposure, sentimentality and detachment.
+            A Julia Thompson sculpture is the thing itself. Its primary referent is the site of its own 
+            decaying, transforming physicality. Her works are not just analogues for the human — specifically 
+            female, wounded — body, but are subject to the same effects imposed by the environment they 
+            inhabit, enacting in their own way the mechanisms of the living organism. They are not a discussion 
+            of, not a reference to, but the very thing.
           </p>
+
           <p>
-            Her sculptural installations juxtapose industrial objects with delicate textiles, revealing the contradictions embedded 
-            in everyday materials. Threadbare fabrics, unfinished seams, and fraying edges hint at the fragility of the familiar, while 
-            exaggerated padding and oversized stitches evoke a sense of excess, insulation, and overprotection.
+            Composed largely of edible materials, sweets, syrups, fizzy drinks, they undergo the 
+            processes of degradation and disintegration experienced both by the mortal body, and by the food 
+            that is needed for its survival. Owing to the porosity of their own frail borders, they are absorbent to 
+            what is around them, and in this way, the slippage, the oozing, the falling apart, simulates both the 
+            digestion of such food by the body, and its alternative: decomposition by the elements of heat, light, 
+            bacteria, and the insistence of time that occurs when it is rejected by the subject of disordered 
+            eating.
           </p>
-          
-          <h3>Artist Statement</h3>
-          <blockquote>
-            "I am drawn to the way soft materials absorb and conceal. They can be comforting but also suffocating, concealing damage beneath 
-            their surface. In this exhibition, I think about how care manifests in material form—how we wrap, bind, and reinforce the objects 
-            and spaces around us."
-          </blockquote>
+
           <p>
-            Through her work, Davies questions the ways in which softness is socially coded—often associated with femininity, 
-            vulnerability, and weakness—and how these associations can be subverted or amplified through form and context.
+            The consensus is that food, before its consumption, can be beautiful. The existence of food 
+            dyes would suggest it. The old masters were certainly keen on it. Yet it is rendered offensive upon 
+            its entrance to a body, its status altered both immediately and irrevocably. It is a post-state that, like 
+            death, is irreversible. Doubly true when it has been purged or excreted, matter that has made these 
+            two journeys of ingestion and expulsion is elevated to the stuff of obscenity.
           </p>
-          
-          <h3>Featured Works</h3>
-          <ul>
-            <li><strong>Padded Room</strong> – A fully upholstered gallery space, transforming the environment into a surreal domestic cocoon.</li>
-            <li><strong>Unravel</strong> – A series of draped and torn curtains, their threads deliberately loosened to create a sense of impermanence.</li>
-            <li><strong>Stuffed Silence</strong> – A sculptural installation of overfilled cushions arranged to block passageways, disrupting movement.</li>
-            <li><strong>Worn Out</strong> – A textile-based sound piece incorporating the amplified rustling of old bedsheets, evoking the restless energy of sleep.</li>
-          </ul>
-          
-          <h3>Critical Reception</h3>
+
           <p>
-            Critics have praised <em>Soft Furnishing</em> for its ability to merge the physical and psychological dimensions of materiality. 
-            Davies' work has been described as "both inviting and unsettling, pushing against the limits of what comfort can mean."
+            The culmination of our anxieties surrounding embodiment, here is the material evidence of our 
+            human wretchedness, the shadow self, made solid, as if contained within the gesture of defecation is 
+            some essential truth about the shameful nature of our existence; the secret we cannot keep and are 
+            fated to reveal again and again as the body wills it.
           </p>
+
           <p>
-            Her use of domestic materials to create architectural interventions speaks to broader conversations about labor, care, and 
-            the unseen work that maintains the spaces we live in.
+            The feminine love object, having been abandoned, Roland Barthes suggests, must remain 
+            motionless at the location of her heartbreak, for therein lies her femininity: “Woman is sedentary, 
+            Man hunts, journeys; Woman is faithful (she waits). It is Woman who gives shape to absence 
+            [...] for she has time to do so [...] expressing immobility [...] the man who waits and suffers from his 
+            waiting is miraculously feminised.” Hence, much like the food so admired before it is displaced, 
+            swallowed and digested, so too the symbol of Woman is the focus of admiration only in the state of 
+            inertia that female palatability consists in. Movement is not feminine, and even in pain, inaction is 
+            expected of her.
           </p>
-          
-          <h3>Curator’s Note</h3>
+
           <p>
-            "Davies’ practice navigates a delicate balance between nostalgia and discomfort. Her work lures us in with the promise of softness, 
-            only to reveal the instability beneath." – Harriet Zhou, Curator
+            “He that has eyes to see and ears to hear may convince himself that no mortal can keep a 
+            secret. If his lips are silent, he chatters with his fingertips; betrayal oozes out of him at every pore,” 
+            says Freud. The oozing of Julia’s sculptures then - specifically her teeth, which wrenched from the 
+            comfort of the shared space of the mouth, stacked atop each other, abstracted and thus devoiced — 
+            has consequences for their status as containers.
           </p>
-          
-          <h3>Visiting Information</h3>
-          <p><strong>Gallery Hours:</strong></p>
-          <ul>
-            <li>Wednesday – Saturday: 10 AM – 7 PM</li>
-            <li>Sunday: 12 PM – 5 PM</li>
-            <li>Closed Mondays & Tuesdays</li>
-          </ul>
-          
-          <p><strong>Address:</strong> The Basement Gallery, 14 Redchurch Street, London, E2 7DP</p>
-          <p><strong>For press inquiries:</strong> press@basementgallery.co.uk</p>
+
+          <p>
+            While they absorb particles from their environment, so too their particles permeate the space 
+            around them. Try as they might, their attempts at containment ultimately fail; and their smell is an 
+            embodied, experiential reminder of this mechanism to the visitor, of the penetration of their own 
+            animal boundary.
+          </p>
+
+          <p>
+            Julia’s teeth may not be able to arrange themselves in rows so as to scream, but they find 
+            other modes of communication, oozing with the secret that insists on its own revelation. By use of 
+            the materials, the artist has given them this liberty. While bottles that hold perfume traditionally act 
+            as barriers, revealing the essence of their contents only upon the breaking of a seal, Julia’s function 
+            to announce both their visible presence and their smell concomitantly.
+          </p>
+
+          <p>
+            Artemisia so loved Mausolus that after his death she regularly imbibed his ashes, rendering 
+            herself living tomb by the repetitive gesture of swallowing her grief. These sculptures, then, enact a 
+            kind of reversal: a dispersal in all directions of the despair experienced by the subject of oppressive 
+            male expectation, of the female body that grieves its freedom.
+          </p>
+
+          <p>
+            These objects, detached torsos, breasts and stomachs, teeth, perfume bottles - not 
+            undomesticated but de-domesticated, defamiliarised — are made useless. These teeth do not enable 
+            speaking or eating, these breasts fail to transform into tits for another’s arousal, these bottles, 
+            emblematic accoutrements of female social and sexual existence, are unable to perfume the body. 
+          </p>
+
+          <p>
+            We are dealing ultimately with questions of inside and outside, of here and there, deixis of location 
+            that have implications for identity, that differentiate between beauty and obscenity. But Julia’s 
+            sculptures are neither an in nor an out — instead, inscribed on their surface is a sustained tension 
+            between these two states of being, a troubling of their mutual exclusion.
+          </p>
         </div>
       </div>
     </div>
