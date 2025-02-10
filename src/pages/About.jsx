@@ -7,7 +7,7 @@ const About = () => {
       {/* Introduction */}
       <div className="row">
         <div className="col-md-6 mt-5 ms-md-5 mt-md-5 text-center text-md-start">
-          <h2 className="fw-bold" style={{ fontSize: "1.8rem", lineHeight: "1.3" }}>
+          <h2 className="fw-bold mb-5 mb-md-2" style={{ fontSize: "1.8rem", lineHeight: "1.3" }}>
             Moffy Gathorne-Hardy is a London-born writer, art theorist, and cultural commentator.
           </h2>
           <p className="fst-italic" style={{ fontSize: "1rem", lineHeight: "1.5" }}>
