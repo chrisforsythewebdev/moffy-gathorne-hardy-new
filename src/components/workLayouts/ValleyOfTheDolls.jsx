@@ -6,18 +6,17 @@ const ValleyOfTheDolls = () => {
     <div className="container py-5">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12 mt-5">
-          <p><strong>Julia Thompson’s solo show “Valley of the Dolls”</strong></p>
-          <p>Dries Van Noten’s Little House in Los Angeles</p>
-          <p>July 27th - September 21st, 2024</p>
-          <p>Photography by: Matthew Kavanagh and Santi Hurtado</p>
+          <h2 className="py-2">Valley of the Dolls</h2>
+          <p>Exhibition text for Julia Thompson's solo show of the same name as Dries Van Noten's Little House, Los Angeles, July 27th - September 21st, 2024</p>
 
+      
           {/* Image Gallery */}
           <div className="image-gallery my-4 text-center">
-            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-A.jpg")} alt="Exhibition 1" className="img-fluid mb-3" />
-            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-B.jpg")} alt="Exhibition 2" className="img-fluid mb-3" />
-            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-C.jpg")} alt="Exhibition 3" className="img-fluid mb-3" />
-            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-D.jpg")} alt="Exhibition 4" className="img-fluid mb-3" />
-            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-E.jpg")} alt="Exhibition 5" className="img-fluid mb-3" />
+            <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-A.jpg")} alt="Exhibition 1" className="img-fluid mb-3" />
+            <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-B.jpg")} alt="Exhibition 2" className="img-fluid mb-3" />
+            <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-C.jpg")} alt="Exhibition 3" className="img-fluid mb-3" />
+            <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-D.jpg")} alt="Exhibition 4" className="img-fluid mb-3" />
+            <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-E.jpg")} alt="Exhibition 5" className="img-fluid mb-3" />
           </div>
 
           <p>

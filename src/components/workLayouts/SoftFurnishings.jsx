@@ -6,18 +6,16 @@ const SoftFurnishing = () => {
     <div className="container py-5">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12 mt-5">
-          <p><strong>Julia Thompson’s solo show “Soft Furnishing”</strong></p>
-          <p>Incubator in London</p>
-          <p>September 20th - October 5th, 2023</p>
-          <p>Photography by: Evie Milsom</p>
+          <h2 className="py-2">Soft Furnishing</h2>
+          <p>Exhibition text for Julia Thompson’s solo show of the same name as Incubator, London, September 20th - October 5th, 2023</p>
 
           {/* Image Gallery */}
           <div className="image-gallery my-4 text-center">
-            <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-A.jpg")} alt="Exhibition 1" className="img-fluid mb-3" />
-            <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-B.jpg")} alt="Exhibition 2" className="img-fluid mb-3" />
-            <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-C.jpg")} alt="Exhibition 3" className="img-fluid mb-3" />
-            <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-D.jpg")} alt="Exhibition 4" className="img-fluid mb-3" />
-            <img src={require("../../images/soft-furnishings/JT-Soft-furnishing-E.jpg")} alt="Exhibition 5" className="img-fluid mb-3" />
+            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-A.jpg")} alt="Exhibition 1" className="img-fluid mb-3" />
+            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-B.jpg")} alt="Exhibition 2" className="img-fluid mb-3" />
+            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-C.jpg")} alt="Exhibition 3" className="img-fluid mb-3" />
+            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-D.jpg")} alt="Exhibition 4" className="img-fluid mb-3" />
+            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-E.jpg")} alt="Exhibition 5" className="img-fluid mb-3" />
           </div>
 
           <p>
@@ -109,6 +107,9 @@ const SoftFurnishing = () => {
           </p>
         </div>
       </div>
+
+      {/* credits  */}
+      {/* <p>Photography by: Evie Milsom</p> */}
     </div>
   );
 };
