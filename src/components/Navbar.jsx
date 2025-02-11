@@ -43,14 +43,11 @@ const Navbar = () => {
         <div className="d-flex flex-column">
           {!selectedNav && (
             <>
-              <Link to="/" className="text-decoration-none text-muted mb-4 nav-link-custom" onClick={() => handleNavClick("home")}>
-                Home
+              <Link to="/about" className="text-decoration-none text-muted mb-4 nav-link-custom" onClick={() => handleNavClick("about")}>
+                About
               </Link>
               <Link to="/work" className="text-decoration-none text-muted mb-4 nav-link-custom" onClick={() => handleNavClick("work")}>
                 Work
-              </Link>
-              <Link to="/about" className="text-decoration-none text-muted mb-4 nav-link-custom" onClick={() => handleNavClick("about")}>
-                About
               </Link>
               <Link to="/contact" className="text-decoration-none text-muted mb-4 nav-link-custom" onClick={() => handleNavClick("contact")}>
                 Contact

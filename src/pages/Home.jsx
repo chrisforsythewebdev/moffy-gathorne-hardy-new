@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../images/soft-furnishings/JT-Soft-furnishing-B.jpg";
+import img from "../images/homepage.jpg";
 
 const Home = () => {
   return (
@@ -22,7 +22,7 @@ const Home = () => {
           alt="Centered Image" 
           className="img-fluid"
           style={{ 
-            maxWidth: "300px", 
+            maxWidth: "500px", 
             height: "auto",
             objectFit: "contain",
             pointerEvents: "auto"

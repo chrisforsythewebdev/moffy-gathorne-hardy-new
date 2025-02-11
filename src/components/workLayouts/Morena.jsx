@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import pdf from "../../pdfExtracts/five-dollars-three-minutes.pdf";
 
 // Import images (Make sure the paths match your file structure)
 import img1 from "../../images/morena/1.png";
@@ -58,15 +57,8 @@ Moffy Gathorne-Hardy`;
     <div className="container py-5 mt-5">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12">
-          <h2 className="py-2"><strong>Title:</strong> Morena</h2>
-          <p><strong>Photography:</strong> Hanna Moon</p>
-          <p><strong>Model:</strong> Moffy</p>
-          <p><strong>Words:</strong> Moffy</p>
-          <p><strong>Editors:</strong> Martí Canillas, Diego Córdova, Jan Rivera</p>
-          <p><strong>Design and Art Direction:</strong> Córdova Canillas</p>
-          <p><strong>Print Production:</strong> 200bis \\ Agpograf S.A</p>
-          <p><strong>Office:</strong> Floridablanca 146, 5o 4a, 08011 Barcelona, Spain</p>
-
+          <h2 className="py-2">Morena</h2>
+          <p>Introductory essay to the 6th issue of <i>Morena</i> magazine, photograped by Hanna Moon</p>
           {/* Image Gallery */}
           <div className="image-gallery my-4 text-center">
             {images.map((img, index) => (
@@ -86,12 +78,6 @@ Moffy Gathorne-Hardy`;
             {expanded ? "Read Less" : "Read More"}
           </button>
 
-          {/* Download PDF Button */}
-          <div className="text-center mt-4">
-            <a href={pdf} download className="btn btn-outline-dark">
-              Download Morena (PDF)
-            </a>
-          </div>
         </div>
       </div>
     </div>
