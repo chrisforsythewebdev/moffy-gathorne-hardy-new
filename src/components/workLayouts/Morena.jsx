@@ -54,7 +54,7 @@ Words by
 Moffy Gathorne-Hardy`;
 
   return (
-    <div className="container py-5 mt-5">
+    <div className="container py-5 mt-5 work-detail">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12">
           <h2 className="py-2">Morena</h2>

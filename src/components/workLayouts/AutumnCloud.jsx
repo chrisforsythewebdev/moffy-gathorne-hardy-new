@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const AutumnCloud = () => {
   return (
-    <div className="container py-5">
+    <div className="container py-5 work-detail">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12">
           <h2 className="py-2">秋雲, Autumn Cloud</h2>

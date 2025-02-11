@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const ValleyOfTheDolls = () => {
   return (
-    <div className="container py-5">
+    <div className="container py-5 work-detail">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12 mt-5">
           <h2 className="py-2">Valley of the Dolls</h2>

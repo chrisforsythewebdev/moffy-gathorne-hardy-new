@@ -47,7 +47,7 @@ So finally, as she puts it in her essay, “We are so used to seeing women as th
   `;
 
   return (
-    <div className="container py-5 mt-5">
+    <div className="container py-5 mt-5 work-detail">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12">
           <h2 className="py-2">5 Dollars for 3 Minutes</h2>
