@@ -37,19 +37,36 @@ const Navbar = () => {
 
   return (
     <>
+      {/* Fixed Title in Top-Left */}
+      <Link 
+        to="/" 
+        className="position-fixed top-0 start-0 p-4 p-md-5 text-decoration-none"
+        style={{ 
+          fontFamily: "'Playfair Display', serif", 
+          fontWeight: 100, 
+          fontSize: "1.5rem", 
+          cursor: "pointer",
+          pointerEvents: "auto",
+          zIndex: 1000,
+          color: "#9A8C0A" // Ensure correct color
+        }}
+      >
+        Moffy Gathorne-Hardy
+      </Link>
+
       {/* DESKTOP NAV */}
       <nav className="d-none d-md-block position-fixed top-0 end-0 p-5 text-muted"
         style={{ fontSize: "0.9rem", fontFamily: "'Playfair Display', serif'" }}>
         <div className="d-flex flex-row gap-3">
           {!selectedNav && (
             <>
-              <Link to="/about" className="text-decoration-none text-muted mb-4 nav-link-custom" onClick={() => handleNavClick("about")}>
+              <Link to="/about" className="text-decoration-none text-muted nav-link-custom" onClick={() => handleNavClick("about")}>
                 About
               </Link>
-              <Link to="/work" className="text-decoration-none text-muted mb-4 nav-link-custom" onClick={() => handleNavClick("work")}>
+              <Link to="/work" className="text-decoration-none text-muted nav-link-custom" onClick={() => handleNavClick("work")}>
                 Work
               </Link>
-              <Link to="/contact" className="text-decoration-none text-muted mb-4 nav-link-custom" onClick={() => handleNavClick("contact")}>
+              <Link to="/contact" className="text-decoration-none text-muted nav-link-custom" onClick={() => handleNavClick("contact")}>
                 Contact
               </Link>
               <Link to="https://www.instagram.com/moffygathornehardy/?hl=en" className="text-decoration-none text-muted nav-link-custom">
@@ -58,7 +75,7 @@ const Navbar = () => {
             </>
           )}
           {selectedNav && selectedNav !== "home" && (
-            <Link to={`/${selectedNav}`} className="text-decoration-none text-muted mb-4 nav-link-custom">
+            <Link to={`/${selectedNav}`} className="text-decoration-none text-muted nav-link-custom">
               {selectedNav.charAt(0).toUpperCase() + selectedNav.slice(1)}
             </Link>
           )}
@@ -90,59 +107,39 @@ const Navbar = () => {
         )}
       </div>
 
-        {/* MOBILE MENU OVERLAY */}
-        {isMobileMenuOpen && (
+      {/* MOBILE MENU OVERLAY */}
+      {isMobileMenuOpen && (
         <div 
-            className="position-fixed top-0 start-0 w-100 h-100 bg-white z-3 d-flex flex-column align-items-start  p-5"
-            style={{ fontFamily: "'Playfair Display', serif'" }}
+          className="position-fixed top-0 start-0 w-100 h-100 bg-white z-3 d-flex flex-column align-items-start p-5"
+          style={{ fontFamily: "'Playfair Display', serif'" }}
         >
-            {/* Close Button */}
-            <button
+          {/* Close Button */}
+          <button
             onClick={toggleMobileMenu}
             className="position-absolute top-0 end-0 m-4 border-0 bg-transparent text-muted"
             style={{ fontSize: "1.8rem", cursor: "pointer" }}
-            >
+          >
             ✕
-            </button>
+          </button>
 
-            {/* Mobile Menu Links */}
-            <Link 
-            to="/" 
-            className="text-decoration-none text-muted mb-4 nav-link-custom fs-4"
-            onClick={() => handleMobileNavClick("home")}
-            >
+          {/* Mobile Menu Links */}
+          <Link to="/" className="text-decoration-none text-muted mb-4 nav-link-custom fs-4" onClick={() => handleMobileNavClick("home")}>
             Home
-            </Link>
-            <Link 
-            to="/about" 
-            className="text-decoration-none text-muted mb-4 nav-link-custom fs-4"
-            onClick={() => handleMobileNavClick("about")}
-            >
+          </Link>
+          <Link to="/about" className="text-decoration-none text-muted mb-4 nav-link-custom fs-4" onClick={() => handleMobileNavClick("about")}>
             About
-            </Link>
-            <Link 
-            to="/work" 
-            className="text-decoration-none text-muted mb-4 nav-link-custom fs-4"
-            onClick={() => handleMobileNavClick("work")}
-            >
+          </Link>
+          <Link to="/work" className="text-decoration-none text-muted mb-4 nav-link-custom fs-4" onClick={() => handleMobileNavClick("work")}>
             Work
-            </Link>
-            <Link 
-            to="/contact" 
-            className="text-decoration-none text-muted mb-4 nav-link-custom fs-4"
-            onClick={() => handleMobileNavClick("contact")}
-            >
+          </Link>
+          <Link to="/contact" className="text-decoration-none text-muted mb-4 nav-link-custom fs-4" onClick={() => handleMobileNavClick("contact")}>
             Contact
-            </Link>
-            <Link 
-            to="https://www.instagram.com/moffygathornehardy/?hl=en"
-            className="text-decoration-none text-muted nav-link-custom fs-4"
-            >
+          </Link>
+          <Link to="https://www.instagram.com/moffygathornehardy/?hl=en" className="text-decoration-none text-muted nav-link-custom fs-4">
             Instagram
-            </Link>
+          </Link>
         </div>
-        )}
-
+      )}
     </>
   );
 };

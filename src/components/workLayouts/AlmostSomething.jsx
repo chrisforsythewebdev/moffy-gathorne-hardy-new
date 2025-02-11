@@ -23,7 +23,7 @@ const AlmostSomething = () => {
   const fullText = ``;
 
   return (
-    <div className="container py-5 mt-5">
+    <div className="container py-5 mt-5 work-detail">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12">
           <h2 className="py-2">Almost Something</h2>
@@ -37,16 +37,16 @@ const AlmostSomething = () => {
           </div>
 
           {/* Exhibition Overview with Toggle */}
-          <p>
-            {expanded ? fullText : fullText.slice(0, 500) + "..."} {/* Show preview text if collapsed */}
-          </p>
+          {/* <p> */}
+            {/* {expanded ? fullText : fullText.slice(0, 500) + "..."} Show preview text if collapsed */}
+          {/* </p>
           <button 
             className="btn btn-link p-0"
             onClick={() => setExpanded(!expanded)}
             style={{ fontSize: "1rem", textDecoration: "underline", color: "black" }}
           >
             {expanded ? "Read Less" : "Read More"}
-          </button>
+          </button> */}
 
         </div>
       </div>

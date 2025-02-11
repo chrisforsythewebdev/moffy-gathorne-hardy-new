@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const ProjectNavigation = ({ prevWork, nextWork }) => {
   return (
     <div 
-      className="d-flex justify-content-between align-items-center px-4 py-3 bg-white"
+      className="d-flex justify-content-between align-items-center px-4 py-3"
       style={{ 
         position: "relative",
         zIndex: 20, // Make sure it's above the footer

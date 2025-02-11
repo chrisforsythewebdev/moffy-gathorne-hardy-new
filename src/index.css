@@ -4,14 +4,23 @@ body {
   font-family: "Playfair Display", serif;
   margin: 0;
   padding: 0;
-  background-color: white;
-  color: black;
+  background-color: #FEF6DC !important; /* Light Beige */
+  color: #9A8C0A !important;
 }
+
 
 body, h1, h2, h3, h4, p, a, span, div {
   font-family: "Playfair Display", serif !important;
 }
 
+/* Ensure all links inherit color */
+a, h1, h2, h3, h4, h5, h6, p, span {
+  color: #9A8C0A !important;
+}
+
+.page-content {
+  padding-top: 4rem; /* Adjust as needed */
+}
 
 .nav-link-custom {
   font-size: 0.9rem;
@@ -37,8 +46,17 @@ body, h1, h2, h3, h4, p, a, span, div {
   color: #6c757d; /* Grey color matching Navbar */
 }
 
-@media (max-width: 768px) {
-  iframe {
-    height: 400px; /* Reduce height for mobile */
-  }
+/* Style for work-detail text */
+/* Ensure all text inside .work-detail is #604C11 */
+.work-detail,
+.work-detail h2,
+.work-detail p,
+.work-detail button {
+  color: #604C11 !important;
+}
+
+
+/* Ensure project navigation stays default */
+.project-navigation {
+  color: inherit !important; 
 }
