@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import pdf from "../../pdfExtracts/five-dollars-three-minutes.pdf";
 
 // Import images (Make sure the paths match your file structure)
 import img1 from "../../images/5dollars3minutes/1.png";
@@ -51,9 +50,8 @@ So finally, as she puts it in her essay, “We are so used to seeing women as th
     <div className="container py-5 mt-5">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12">
-          <h2 className="py-2"><strong>Title:</strong> 5 Dollars for 3 Minutes</h2>
-          <p><strong>Artist:</strong> Cammie Toloui</p>
-          <p><strong>Interview by:</strong> Moffy Gathorne-Hardy</p>
+          <h2 className="py-2">5 Dollars for 3 Minutes</h2>
+          <p>Profile on Cammie Toloui for <i>A Nice Magazine</i></p>
 
           {/* Image Gallery */}
           <div className="image-gallery my-4 text-center">
@@ -74,12 +72,6 @@ So finally, as she puts it in her essay, “We are so used to seeing women as th
             {expanded ? "Read Less" : "Read More"}
           </button>
 
-          {/* Download PDF Button */}
-          <div className="text-center mt-4">
-            <a href={pdf} download className="btn btn-outline-dark">
-              Download 5 Dollars for 3 Minutes (PDF)
-            </a>
-          </div>
         </div>
       </div>
    

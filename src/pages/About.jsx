@@ -7,7 +7,7 @@ const About = () => {
       {/* Introduction */}
       <div className="row">
         <div className="col-md-6 mt-5 ms-md-5 mt-md-5">
-          <h2 className="fw-bold mb-4" style={{ fontSize: "1.6rem", lineHeight: "1.3", textAlign: "left" }}>
+          <h2 className="mb-4" style={{ fontSize: "1rem", lineHeight: "1.3", textAlign: "left" }}>
             Moffy Gathorne-Hardy is a London-born writer, art theorist, and cultural commentator with one
             foot in musicology and another in women’s studies.
           </h2>
@@ -50,11 +50,10 @@ const About = () => {
       {/* Education Section - Ensures it doesn't get hidden by footer */}
       <div className="row mt-5">
         <div className="col-md-8 ms-md-5 mb-5">
-          <h4 className="fw-bold">Education</h4>
           <p style={{ fontSize: "1rem", lineHeight: "1.5", textAlign: "left" }}>
-            <strong>MA History and Literature</strong>, Columbia University, 2023-2024
+            MA History and Literature, Columbia University, 2023-2024
             <br />
-            <strong>BA Comparative Literature</strong>, University College London, 2018-2021
+            BA Comparative Literature, University College London, 2018-2021
           </p>
         </div>
       </div>

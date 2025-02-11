@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import pdf from "../../pdfExtracts/five-dollars-three-minutes.pdf";
 
 // Import images (Make sure the paths match your file structure)
 import img1 from "../../images/almostsomething/1.png";
@@ -27,16 +26,9 @@ const AlmostSomething = () => {
     <div className="container py-5 mt-5">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12">
-          <h2 className="py-2"><strong>Title:</strong> Almost Something</h2>
-          <p><strong>Text:</strong> Moffy Gathorne-Hardy</p>
-          <p><strong>Art Direction:</strong> Lords of DesignTM
-          (Frédérique Bortolotti, Frédérique Stietel, Alizée Cormerais) and Patrick Remy</p>
-          <p><strong>Design:</strong> Lords of DesignTM</p>
-          <p><strong>Editing:</strong> Patrick Remy</p>     
-          <p><strong>Colour Separation:</strong> Output</p>
-          <p><strong>Proof Reading:</strong> Frédérique Destribats</p>
-          <p><strong>Translation to Korean:</strong> Jaeyong Park and Blue Kim</p>
-
+          <h2 className="py-2">Almost Something</h2>
+          <p>Introduction to Hanna Moon's book of the same title, published by Patrick Remy Studio</p>
+          
           {/* Image Gallery */}
           <div className="image-gallery my-4 text-center">
             {images.map((img, index) => (
@@ -56,12 +48,6 @@ const AlmostSomething = () => {
             {expanded ? "Read Less" : "Read More"}
           </button>
 
-          {/* Download PDF Button */}
-          <div className="text-center mt-4">
-            <a href={pdf} download className="btn btn-outline-dark">
-              Download Almost Somethng (PDF)
-            </a>
-          </div>
         </div>
       </div>
     </div>

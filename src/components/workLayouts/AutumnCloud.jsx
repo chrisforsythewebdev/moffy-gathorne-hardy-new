@@ -6,11 +6,8 @@ const AutumnCloud = () => {
     <div className="container py-5">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12">
-          <p><strong>Faye Wei Wei’s solo show “Autumn Cloud”</strong></p>
-          <p>Curated by Alix Janta and Romain Button</p>
-          <p>74 Rue Saint-Georges, 1050 Ixelles, Belgium</p>
-          <p>24th April - 12th May 2024</p>
-
+          <h2 className="py-2">秋雲, Autumn Cloud</h2>
+          <p>Exhibition text for Faye Wei Wei's solo show of the same name as 74 Rue Saint-Georges, 1050 Ixelles, Belgium, 24th April - 12th May 2024</p>
           {/* Image Gallery */}
           <div className="image-gallery my-4 text-center">
             <img src={require("../../images/autumn-cloud/Faye-Wei-Wei-A.JPG")} alt="Exhibition 1" className="img-fluid mb-3" />

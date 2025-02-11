@@ -11,7 +11,6 @@ const SoftFurnishing = () => {
 
           {/* Image Gallery */}
           <div className="image-gallery my-4 text-center">
-            <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-A.jpg")} alt="Exhibition 1" className="img-fluid mb-3" />
             <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-B.jpg")} alt="Exhibition 2" className="img-fluid mb-3" />
             <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-C.jpg")} alt="Exhibition 3" className="img-fluid mb-3" />
             <img src={require("../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-D.jpg")} alt="Exhibition 4" className="img-fluid mb-3" />

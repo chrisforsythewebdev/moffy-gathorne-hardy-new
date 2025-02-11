@@ -38,9 +38,9 @@ const Navbar = () => {
   return (
     <>
       {/* DESKTOP NAV */}
-      <nav className="d-none d-md-block position-fixed top-0 start-0 p-5 text-muted"
+      <nav className="d-none d-md-block position-fixed top-0 end-0 p-5 text-muted"
         style={{ fontSize: "0.9rem", fontFamily: "'Playfair Display', serif'" }}>
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-row gap-3">
           {!selectedNav && (
             <>
               <Link to="/about" className="text-decoration-none text-muted mb-4 nav-link-custom" onClick={() => handleNavClick("about")}>
