@@ -41,7 +41,7 @@ const Morena = () => {
           </div>
 
           {/* Expandable Text Section */}
-          <div className="mx-auto text-start" style={{ maxWidth: "800px", width: "100%" }}>
+          <div className="mx-auto text-start" style={{ maxWidth: "1400px", width: "100%" }}>
             <p>I once dreamt about Japan before going there. Sultry gardens which weren’t mauve in colour but somehow were in the impression they produced in me, pale flowers like paper growing up silky sexy in cold blades of grass, a boundary between landscape and sky that seemed to invite transgression.</p>
 
             <p>It was one of those dreams that lingers, and on the basis of it I formed an idea about the place, less relating to conceptions of its physical reality than what this physicality suggested; what new notions were to be dawned upon in the passing of a little green leaf — romantic ideas of this nature of course encouraged by a ritualistic re-watching of Spirited Away; I didn’t jump but was pushed.</p>
