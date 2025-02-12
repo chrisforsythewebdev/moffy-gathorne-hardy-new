@@ -15,7 +15,7 @@ const AutumnCloud = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="container py-5 mt-5 work-detail">
+    <div className="container py-5 mt-2 work-detail">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-10 col-sm-12 mx-auto text-start">
 
