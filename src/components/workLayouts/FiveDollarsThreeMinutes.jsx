@@ -286,7 +286,15 @@ const FiveDollarsThreeMinutes = () => {
         <div className="col-lg-8 col-md-10 col-sm-12 mx-auto text-start">
           
           {/* Title & Intro Text */}
-          <h2 className="py-2">5 Dollars for 3 Minutes</h2>
+          <h2 
+            className="py-2"
+            style={{
+              fontWeight: 100,
+              fontSize: "1.5rem",  // Match Navbar
+            }}
+          >
+          5 Dollars for 3 Minutes
+          </h2> 
           <p className="">
             Profile on Cammie Toloui for <i>A Nice Magazine</i>
           </p>

@@ -19,7 +19,15 @@ const ValleyOfTheDolls = () => {
         <div className="col-lg-8 col-md-10 col-sm-12 mx-auto text-start">
 
           {/* Title & Intro Text */}
-          <h2 className="py-2">Valley of the Dolls</h2>
+          <h2 
+            className="py-2"
+            style={{
+              fontWeight: 100,
+              fontSize: "1.5rem",  // Match Navbar
+            }}
+          >
+          Valley of the Dolls
+          </h2> 
           <p className="">
             Exhibition text for Julia Thompson's solo show of the same name at Dries Van Noten's Little House, Los Angeles, July 27th - September 21st, 2024
           </p>

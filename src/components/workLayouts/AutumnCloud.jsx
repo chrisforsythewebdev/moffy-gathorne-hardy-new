@@ -19,7 +19,15 @@ const AutumnCloud = () => {
         <div className="col-lg-8 col-md-10 col-sm-12 mx-auto text-start">
 
           {/* Title & Intro Text */}
-          <h2 className="py-2">秋雲, Autumn Cloud</h2>
+          <h2 
+            className="py-2"
+            style={{
+              fontWeight: 100,
+              fontSize: "1.5rem",  // Match Navbar
+            }}
+          >
+          秋雲, Autumn Cloud          
+          </h2> 
           <p className="">
             Exhibition text for Faye Wei Wei's solo show of the same name at 74 Rue Saint-Georges, 1050 Ixelles, Belgium, 24th April - 12th May 2024
           </p>

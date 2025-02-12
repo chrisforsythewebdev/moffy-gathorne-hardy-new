@@ -11,13 +11,8 @@ const Contact = () => {
       {/* Contact Information */}
       <div className="text-center" style={{ fontSize: "1rem", fontFamily: "'Playfair Display', serif" }}>
         <p className="m-0">
-          <a href="mailto:info@moffygathornehardy.com" className="contact-link">
-            info@moffygathornehardy.com
-          </a>
-        </p>
-        <p className="m-0">
-          <a href="tel:+442086388753" className="contact-link">
-            +44 (0) 208 638 8753
+          <a href="mailto:moffygathornehardy@hotmail.com" className="contact-link">
+            moffygathornehardy@hotmail.com
           </a>
         </p>
       </div>

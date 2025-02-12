@@ -22,8 +22,16 @@ const AlmostSomething = () => {
         <div className="col-lg-8 col-md-10 col-sm-12 mx-auto text-start">
 
           {/* Title & Intro Text */}
-          <h2 className="py-2">Almost Something</h2>
-          <p className="">
+          <h2 
+            className="py-2"
+            style={{
+              fontWeight: 100,
+              fontSize: "1.5rem",  // Match Navbar
+            }}
+          >
+            Almost Something
+          </h2> 
+         <p className="">
             Introduction to Hanna Moon's book of the same title, published by Patrick Remy Studio
           </p>
 

@@ -18,7 +18,15 @@ const SoftFurnishing = () => {
         <div className="col-lg-8 col-md-10 col-sm-12 mx-auto text-start">
 
           {/* Title & Intro Text */}
-          <h2 className="py-2">Soft Furnishing</h2>
+          <h2 
+            className="py-2"
+            style={{
+              fontWeight: 100,
+              fontSize: "1.5rem",  // Match Navbar
+            }}
+          >
+          Soft Furnishing
+          </h2> 
           <p className="">
             Exhibition text for Julia Thompson’s solo show of the same name at Incubator, London, September 20th - October 5th, 2023
           </p>
