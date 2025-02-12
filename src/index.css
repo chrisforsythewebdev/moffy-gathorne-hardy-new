@@ -55,6 +55,13 @@ a, h1, h2, h3, h4, h5, h6, p, span {
   color: #604C11 !important;
 }
 
+.nav-bottom {
+  color: #604C11 !important;
+}
+
+.nav-bottom span {
+  color: inherit !important;
+}
 
 /* Ensure project navigation stays default */
 .project-navigation {

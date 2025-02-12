@@ -262,7 +262,6 @@ import img8 from "../../images/morena/8.png";
 const remainingImages = [img2, img3, img4, img5, img6, img7, img8];
 
 const Morena = () => {
-  const [expanded, setExpanded] = useState(false);
 
   return (
     <div className="container py-5 mt-2 work-detail">
@@ -270,8 +269,8 @@ const Morena = () => {
         <div className="col-lg-8 col-md-10 col-sm-12 mx-auto text-start">
           
           {/* Title & Intro Text */}
-          <h2 className="py-2 text-center">Morena</h2>
-          <p className="lead text-center">
+          <h2 className="py-2">Morena</h2>
+          <p className="">
             Introductory essay to the 6th issue of <i>Morena</i> magazine, photographed by Hanna Moon
           </p>
   
@@ -290,8 +289,6 @@ const Morena = () => {
 
             <p>Two days of night, the green of Hakone, the rushing of trains, spiders of kana and kanji, steam from an onsen like that of hot soup, Hanna — perceived in no order — and two me’s on their 23rd birthday, a mirror between them, waving across the universe, universe.</p>
 
-            {expanded && (
-              <>
                 <p>And I suppose, having heard I was coming, my dream arose from whence it first emerged and came to meet me — a soft shapeless envelope, I slipping in — colouring the tracks that carried us to Tokyo, disappointment nowhere to be seen. Dissociation like Sisyphus begins again, as it is apt to do when observing, across the plane of a low wooden table, a crab still moving in a bowl of ice. And then on the street, just in time for evening drinks, one is reminded of the power of eyesight to overcome distance, gazing at the higher and then highest point of the buildings that loom above, transported through internal space.</p>
 
                 <p>Having watched Lost in Translation and visited the Studio Ghibli museum, while life revealed itself as imitating art (as it so often does to those willing to play), we wandered through the meta-tropolis that we had created for ourselves in the spirit of anti-mimesis; and many cerebral games were to follow.</p>
@@ -444,20 +441,7 @@ mind of the other, forming a kind of holy trinity, a circle which is both whole 
               crab still moves in a bowl of ice; and a taste is recalled to the viewer of a piece of fruit they ate one
               summer, from the colour of a cherry red stocking draped over a chair in the background.
               </p>
-              
-              </>
-            )}
-          </div>
-
-          {/* Read More / Read Less Button */}
-          <div className="text-center">
-            <button
-              className="btn btn-link p-0"
-              onClick={() => setExpanded(!expanded)}
-              style={{ fontSize: "1rem", textDecoration: "underline", color: "black" }}
-            >
-              {expanded ? "Collapse" : "Read More"}
-            </button>
+            
           </div>
 
           {/* Remaining Images */}

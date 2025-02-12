@@ -14,14 +14,14 @@ const ProjectNavigation = ({ prevWork, nextWork }) => {
     >
       {/* Previous Project */}
       {prevWork ? (
-        <Link to={`/work/${prevWork.title}`} className="text-decoration-none text-success fw-bold d-flex align-items-center" style={{ cursor: "pointer" }}> 
+        <Link to={`/work/${prevWork.title}`} className=" nav-bottom text-decoration-none fw-bold d-flex align-items-center" style={{ cursor: "pointer" }}> 
           &#x276E; <span className="ms-2">{prevWork.title}</span>
         </Link>
       ) : <div /> }
 
       {/* Next Project */}
       {nextWork ? (
-        <Link to={`/work/${nextWork.title}`} className="text-decoration-none text-success fw-bold d-flex align-items-center" style={{ cursor: "pointer" }}>
+        <Link to={`/work/${nextWork.title}`} className="nav-bottom text-decoration-none fw-bold d-flex align-items-center" style={{ cursor: "pointer" }}>
           <span className="me-2">{nextWork.title}</span> &#x276F;
         </Link>
       ) : <div /> }

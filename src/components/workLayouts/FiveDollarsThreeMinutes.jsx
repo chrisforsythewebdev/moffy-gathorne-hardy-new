@@ -17,7 +17,6 @@ import img10 from "../../images/5dollars3minutes/10.png";
 const remainingImages = [img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
 const FiveDollarsThreeMinutes = () => {
-  const [expanded, setExpanded] = useState(false);
    // The full text content
  const fullText = `Hanna and I discovered Cammie Toloui’s work when we came across her book, “5 Dollars for 3
  minutes” at Arles photography festival. Having lamented the slightly slim pickings that year, we
@@ -287,8 +286,8 @@ const FiveDollarsThreeMinutes = () => {
         <div className="col-lg-8 col-md-10 col-sm-12 mx-auto text-start">
           
           {/* Title & Intro Text */}
-          <h2 className="py-2 text-center">5 Dollars for 3 Minutes</h2>
-          <p className="lead text-center">
+          <h2 className="py-2">5 Dollars for 3 Minutes</h2>
+          <p className="">
             Profile on Cammie Toloui for <i>A Nice Magazine</i>
           </p>
 
@@ -300,17 +299,9 @@ const FiveDollarsThreeMinutes = () => {
           {/* Expandable Text Section - Restricting width to match the image */}
           <div className="mx-auto text-start" style={{ maxWidth: "100%", width: "fit-content" }}>
             <p style={{ whiteSpace: "pre-line" }}>
-              {expanded ? fullText : fullText.slice(0, 500) + "..."}
+              { fullText }
             </p>
-            <div className="text-center">
-              <button
-                className="btn btn-link p-0"
-                onClick={() => setExpanded(!expanded)}
-                style={{ fontSize: "1rem", textDecoration: "underline", color: "black" }}
-              >
-                {expanded ? "Collapse" : "Read More"}
-              </button>
-            </div>
+            
           </div>
 
           {/* Remaining Images */}

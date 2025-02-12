@@ -11,7 +11,6 @@ import img4 from "../../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-E.jpg"
 const remainingImages = [img2, img3, img4];
 
 const SoftFurnishing = () => {
-  const [expanded, setExpanded] = useState(false);
 
   return (
     <div className="container py-5 mt-2 work-detail">
@@ -20,7 +19,7 @@ const SoftFurnishing = () => {
 
           {/* Title & Intro Text */}
           <h2 className="py-2">Soft Furnishing</h2>
-          <p className="lead">
+          <p className="">
             Exhibition text for Julia Thompson’s solo show of the same name at Incubator, London, September 20th - October 5th, 2023
           </p>
 
@@ -29,7 +28,6 @@ const SoftFurnishing = () => {
             <img src={img1} alt="Exhibition 1" className="img-fluid" />
           </div>
 
-          {/* Expandable Text Section */}
           <div>
             <p>
               A Julia Thompson sculpture is the thing itself. Its primary referent is the site of its own 
@@ -39,8 +37,7 @@ const SoftFurnishing = () => {
               of, not a reference to, but the very thing.
             </p>
 
-            {expanded && (
-              <>
+
                 <p>
                   Composed largely of edible materials, sweets, syrups, fizzy drinks, they undergo the 
                   processes of degradation and disintegration experienced both by the mortal body, and by the food 
@@ -120,18 +117,8 @@ const SoftFurnishing = () => {
                   sculptures are neither an in nor an out — instead, inscribed on their surface is a sustained tension 
                   between these two states of being, a troubling of their mutual exclusion.
                 </p>
-              </>
-            )}
-          </div>
 
-          {/* Read More / Read Less Button */}
-          <button
-            className="btn btn-link p-0"
-            onClick={() => setExpanded(!expanded)}
-            style={{ fontSize: "1rem", textDecoration: "underline", color: "black" }}
-          >
-            {expanded ? "Collapse" : "Read More"}
-          </button>
+          </div>
 
           {/* Remaining Images */}
           <div className="image-gallery my-4 text-center">

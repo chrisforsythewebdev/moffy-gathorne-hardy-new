@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const About = () => {
   return (
-    <div className="container my-5 my-md-3 px-4 px-md-5 w-100 pb-5">
+    <div className="container my-5 my-md-3 px-4 px-md-5 w-100 pb-5 work-detail">
       {/* Introduction */}
       <div className="row">
         <div className="col-md-6 mt-5 ms-md-5 mt-md-5">

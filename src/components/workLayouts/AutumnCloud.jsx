@@ -12,7 +12,6 @@ import img5 from "../../images/autumn-cloud/Faye-Wei-Wei-E.JPG";
 const remainingImages = [img2, img3, img4, img5];
 
 const AutumnCloud = () => {
-  const [expanded, setExpanded] = useState(false);
 
   return (
     <div className="container py-5 mt-2 work-detail">
@@ -21,7 +20,7 @@ const AutumnCloud = () => {
 
           {/* Title & Intro Text */}
           <h2 className="py-2">秋雲, Autumn Cloud</h2>
-          <p className="lead">
+          <p className="">
             Exhibition text for Faye Wei Wei's solo show of the same name at 74 Rue Saint-Georges, 1050 Ixelles, Belgium, 24th April - 12th May 2024
           </p>
 
@@ -30,7 +29,6 @@ const AutumnCloud = () => {
             <img src={img1} alt="Exhibition 1" className="img-fluid" />
           </div>
 
-          {/* Expandable Text Section */}
           <div>
             <p>
               The lovers in Zamyatin’s novel <i>We</i> are “a twosome, a onesome.” So it is with Faye’s work, where
@@ -41,8 +39,7 @@ const AutumnCloud = () => {
               untouched by ideation, feeling without thinking, in other words—innocence.
             </p>
 
-            {expanded && (
-              <>
+
                 <p>(Then there is a girl alone, (or even a deer), the thinking subject, perceiving all creation around them)</p>
 
                 <p>
@@ -120,18 +117,9 @@ const AutumnCloud = () => {
                   no protection of modesty, no fig leaf is erected between us and the painting to inhibit our intimacy 
                   with it. She makes of us a twosome, a onesome, inviting us into this relation with her work.
                 </p>
-              </>
-            )}
+
           </div>
 
-          {/* Read More / Read Less Button */}
-          <button
-            className="btn btn-link p-0"
-            onClick={() => setExpanded(!expanded)}
-            style={{ fontSize: "1rem", textDecoration: "underline", color: "black" }}
-          >
-            {expanded ? "Collapse" : "Read More"}
-          </button>
 
           {/* Remaining Images */}
           <div className="image-gallery my-4 text-center">

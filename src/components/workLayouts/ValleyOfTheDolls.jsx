@@ -12,7 +12,6 @@ import img5 from "../../images/soft-furnishings/JT-Soft-furnishing-E.jpg";
 const remainingImages = [img2, img3, img4, img5];
 
 const ValleyOfTheDolls = () => {
-  const [expanded, setExpanded] = useState(false);
 
   return (
     <div className="container py-5 mt-2 work-detail">
@@ -21,7 +20,7 @@ const ValleyOfTheDolls = () => {
 
           {/* Title & Intro Text */}
           <h2 className="py-2">Valley of the Dolls</h2>
-          <p className="lead">
+          <p className="">
             Exhibition text for Julia Thompson's solo show of the same name at Dries Van Noten's Little House, Los Angeles, July 27th - September 21st, 2024
           </p>
 
@@ -42,8 +41,7 @@ const ValleyOfTheDolls = () => {
               present are distinct.
             </p>
 
-            {expanded && (
-              <>
+
                 <p>
                   Here is a Valley wherein then is a past made ever-present via its exhumation, all time pregnant with 
                   the rest of itself. This mixed metaphor is intentional, and imagery which seems at first to be opposing 
@@ -93,18 +91,10 @@ const ValleyOfTheDolls = () => {
                   the work, and its impossibility is pre-installed within her practice: it is only by building something 
                   concrete as a stand-in for the unreachable that she can make her own reaching visible.
                 </p>
-              </>
-            )}
+ 
           </div>
 
-          {/* Read More / Read Less Button */}
-          <button
-            className="btn btn-link p-0"
-            onClick={() => setExpanded(!expanded)}
-            style={{ fontSize: "1rem", textDecoration: "underline", color: "black" }}
-          >
-            {expanded ? "Collapse" : "Read More"}
-          </button>
+  
 
           {/* Remaining Images */}
           <div className="image-gallery my-4 text-center">
