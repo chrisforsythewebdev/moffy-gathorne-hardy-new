@@ -10,6 +10,7 @@ const Navbar = () => {
   // Handle navigation click
   const handleNavClick = (navItem) => {
     setSelectedNav(navItem);
+    setIsMobileMenuOpen(false); // Close mobile menu when navigating
     navigate(`/${navItem}`);
   };
 
@@ -29,7 +30,7 @@ const Navbar = () => {
         <Link 
           to="/" 
           className="text-decoration-none"
-          onClick={() => setSelectedNav(null)} // RESET NAV SELECTION
+          onClick={() => { setSelectedNav(null); setIsMobileMenuOpen(false); }} // RESET NAV SELECTION
           style={{ 
             fontFamily: "'Playfair Display', serif", 
             fontWeight: 100, 
@@ -67,9 +68,19 @@ const Navbar = () => {
             </Link>
             <Link 
               to="https://www.instagram.com/moffygathornehardy/?hl=en" 
+              target="_blank"
               className={`text-decoration-none text-muted ${selectedNav ? "opacity-25" : ""}`}
             >
-              Instagram
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  viewBox="0 0 24 24" 
+                  width="24" 
+                  height="24"
+                  fill="currentColor" // Inherit text color
+                  style={{ verticalAlign: "middle" }}
+                >
+                  <path d="M7.75 2C4.45 2 2 4.45 2 7.75v8.5C2 19.55 4.45 22 7.75 22h8.5c3.3 0 5.75-2.45 5.75-5.75v-8.5C22 4.45 19.55 2 16.25 2h-8.5zm0 1.5h8.5c2.45 0 4.25 1.8 4.25 4.25v8.5c0 2.45-1.8 4.25-4.25 4.25h-8.5c-2.45 0-4.25-1.8-4.25-4.25v-8.5C3.5 5.3 5.3 3.5 7.75 3.5zM18 5a1 1 0 100 2 1 1 0 000-2zm-6 3.25A5.75 5.75 0 006.25 14 5.75 5.75 0 0012 19.75 5.75 5.75 0 0017.75 14 5.75 5.75 0 0012 8.25zm0 1.5A4.25 4.25 0 0116.25 14 4.25 4.25 0 0112 18.25 4.25 4.25 0 017.75 14 4.25 4.25 0 0112 9.75z"></path>
+                </svg>
             </Link>
           </div>
         </nav>
