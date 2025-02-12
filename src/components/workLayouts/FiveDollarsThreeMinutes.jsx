@@ -17,31 +17,62 @@ import img10 from "../../images/5dollars3minutes/10.png";
 const remainingImages = [img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
 const FiveDollarsThreeMinutes = () => {
-   // The full text content
- const fullText = `Hanna and I discovered Cammie Toloui’s work when we came across her book, “5 Dollars for 3
- minutes” at Arles photography festival. Having lamented the slightly slim pickings that year, we
- were excited by our nding, and sat hunched together reading her essay at the back of the display
- copy. We both read it again, separately, when we got home. Hanna got in touch and asked if she
- could publish some of her photographs here, and we decided we would do a kind of interview to go
- with them, a conversation between me and Cammie.
- 
- Cammie is warm, funny, and generous with her time. When we speak, she is at home in Portland,
- Oregon. Originally from San Francisco, and after years of living all over the place — Brighton,
- Lewes, Iowa, Russia — she has moved back to the West Coast. She has done this, she tells me,
- because “it’s more friendly to people like me”. As our conversation continues, I get a sense of what
- she is referring to, and perceive what strikes me as the skill of someone who knows how to make do
- with the objects of identication that are available to them, however disparate or incongruous, and
- use them to construct and assert self-hood, a kind of patch-working of identity. Having read her
- account of growing up with a strict, religious Iranian father in what she lovingly describes to me as
- her “subculture paradise” of San Francisco, I ask her how Iranian she feels, and how American. The
- answer is that she inhabits a “limbo state, where I grew up in America, but culturally at home it was
- so dierent, that it set me apart from my friends and they knew I was dierent, and yet my Iranian
- family didn’t see me as Iranian”. In England she felt American due to “the contrast of living there”,
- regarded by people not as English and therefore as American. Now back in the US she feels more
- European, and “the through-line through all of it is the Iranian thing, which is always a heartbeat
- within me”.
- 
- During lockdown her and her husband started learning Farsi together over Zoom, an endeavour
+
+  return (
+    <div className="container py-5 mt-2 work-detail">
+      <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-10 col-sm-12 mx-auto text-start">
+          
+          {/* Title & Intro Text */}
+          <h2 
+            className="py-2"
+            style={{
+              fontWeight: 100,
+              fontSize: "1.5rem",  // Match Navbar
+            }}
+          >
+          5 Dollars for 3 Minutes
+          </h2> 
+          <p className="">
+            Profile on Cammie Toloui for <i>A Nice Magazine</i>
+          </p>
+
+          {/* First Image (Standalone) */}
+          <div className="text-center mb-4">
+            <img src={img1} alt="Five Dollars Three Minutes 1" className="img-fluid" style={{ maxWidth: "100%" }} />
+          </div>
+
+          <div>
+            <p>
+            Hanna and I discovered Cammie Toloui’s work when we came across her book, “5 Dollars for 3
+            minutes” at Arles photography festival. Having lamented the slightly slim pickings that year, we
+            were excited by our nding, and sat hunched together reading her essay at the back of the display
+            copy. We both read it again, separately, when we got home. Hanna got in touch and asked if she
+            could publish some of her photographs here, and we decided we would do a kind of interview to go
+            with them, a conversation between me and Cammie.
+            </p>
+
+
+                <p>
+                Cammie is warm, funny, and generous with her time. When we speak, she is at home in Portland,
+                Oregon. Originally from San Francisco, and after years of living all over the place — Brighton,
+                Lewes, Iowa, Russia — she has moved back to the West Coast. She has done this, she tells me,
+                because “it’s more friendly to people like me”. As our conversation continues, I get a sense of what
+                she is referring to, and perceive what strikes me as the skill of someone who knows how to make do
+                with the objects of identication that are available to them, however disparate or incongruous, and
+                use them to construct and assert self-hood, a kind of patch-working of identity. Having read her
+                account of growing up with a strict, religious Iranian father in what she lovingly describes to me as
+                her “subculture paradise” of San Francisco, I ask her how Iranian she feels, and how American. The
+                answer is that she inhabits a “limbo state, where I grew up in America, but culturally at home it was
+                so dierent, that it set me apart from my friends and they knew I was dierent, and yet my Iranian
+                family didn’t see me as Iranian”. In England she felt American due to “the contrast of living there”,
+                regarded by people not as English and therefore as American. Now back in the US she feels more
+                European, and “the through-line through all of it is the Iranian thing, which is always a heartbeat
+                within me”.
+                </p>
+
+                <p>
+                During lockdown her and her husband started learning Farsi together over Zoom, an endeavour
  that she designates as an attempt to “shore up that Persian part of me”. Cooking Iranian food is
  another “connection to being Persian”. Alluding to the death of Mahsa Amini and the ensuing
  protests, she says “I am not from Iran, but when I see what’s going on there I feel like I am part of
@@ -50,8 +81,10 @@ const FiveDollarsThreeMinutes = () => {
  Iranians, she felt she couldn’t “meet them” due to her lack of language, a “missing piece”, which made
  her feel lonely. She pauses, and then seems to conclude: “you get it where you can nd it, so for me
  it’s in the cooking, and in the learning of the language”.
- 
- Having been given a little insight into what seemed to me a kind of bricolage practice, what
+                </p>
+
+                <p>
+                Having been given a little insight into what seemed to me a kind of bricolage practice, what
  Cammie calls getting it where you can nd it, several things occurred to me. The rst was the extent
  to which her identity seems not only uid, context-dependant, but often dened in negative terms, in 
  relation to an opposite. Again invoking the signicance of language for cultural identity, she talks
@@ -86,8 +119,11 @@ const FiveDollarsThreeMinutes = () => {
  an episode at the grocery story where, having stolen a roll of lm, she was discovered by her mother,
  driven back to the shop, and forced to apologise to the manager. This, she says, did not deter her
  from future “deviant deeds for the sake of photography”. Au contraire!
- 
- On second reading I wonder if a connection may have been xed in her mind at this moment
+
+                </p>
+
+                <p>
+                On second reading I wonder if a connection may have been xed in her mind at this moment
  between immoral or ungodly behaviour and photography. The supermarket scene resembles a kind 
  of confession after sin, and the potential for eroticism in the confessional dynamic seems to me to be
  borne out, later, in the Private Pleasures booth at the strip club where she worked, the Lusty Lady,
@@ -104,8 +140,11 @@ const FiveDollarsThreeMinutes = () => {
  father’s presence can be felt: “I continued to be as punk rock, and radical, and in your face as
  possible, because I was still like, fuck you dad,” she laughs, “and that powered me into nding and
  seeking out the edges of things and the people I found to be the most interesting in my world”.
- 
- Being a woman was still dicult in the 1980s (not now though), and aspects specically of
+                </p>
+
+                <p>
+
+                Being a woman was still dicult in the 1980s (not now though), and aspects specically of
  biological femininity were still very much subjects of taboo then. The band Cammie was in, the
  Yeastie Girlz, somehow managing a kind of righteous feminist rage that retained its sense of
  humour, wrote songs about menstruating, yeast infections, and cunnilingus, with names like “Ovary
@@ -127,8 +166,10 @@ const FiveDollarsThreeMinutes = () => {
  we all know, and that perhaps TV Girl (I’m not sure if there are one, or several TV “girls” in the
  band) is not himself a cockroach eating the crust o her thong? We both cackle like witches — I
  mean women — and she asks that I make it clear these are my words, and not hers.
- 
- Having lived in Iowa City for years for the sake of her son, she did portraits and wedding
+                </p>
+
+                <p>
+                Having lived in Iowa City for years for the sake of her son, she did portraits and wedding
  photography to make a living, dealing with norms and bridezillas and the occasional racist (one
  woman refused to sign a contract upon learning that Cammie’s surname was Iranian). While she
  “hated the fakey fakey thing that I had to do” while shooting weddings, she tells me, she “shot it like
@@ -138,8 +179,10 @@ const FiveDollarsThreeMinutes = () => {
  she laughs heartily. This is my very favourite of everything she tells me during our conversation.
  What a lovely, amusing, perfect idea: Cammie on norm safari, interloper among the canapés,
  locating the intrigue.
- 
- In other words, she is gifted at taking unfortunate circumstances, transforming them into
+                </p>
+
+                <p>
+                In other words, she is gifted at taking unfortunate circumstances, transforming them into
  something that she can work to her advantage, in acts of the kind of industrious, female creativity
  that is demonstrated by every woman who takes sparse ingredients and transforms them into a
  meal. In her essay she describes her early attempts at persuading customers to allow her to
@@ -151,8 +194,10 @@ const FiveDollarsThreeMinutes = () => {
  much of Cammie’s joint sex work/photography practice was an exercise in getting these men to
  expose themselves to her, using their perception of her as the one who was truly exposed. Of all the
  Trojan horses, this really is very Trojan!
- 
- I begin to think then about the received ideas about the objectication of the sex worker, the
+                </p>
+
+                <p>
+                I begin to think then about the received ideas about the objectication of the sex worker, the
  customer as the voyeur to their viewee, and how the actual dynamic does not entirely reect this
  binary. Cammie was able to conceal her personal identity through performance, through wigs and
  makeup and costume, through the use of a fake name that would develop into a eshed-out alter ego
@@ -171,8 +216,10 @@ const FiveDollarsThreeMinutes = () => {
  the important bits of me, they had no idea about, and they were baring to me the very depths of their
  desire, their very personal kinks and fetishes and all these things, and bits of their body as well, but I
  could only guess who these people were in real life”.
- 
- Indeed, Cammie ended up at the Lusty Lady in the first place because a friend of hers had worked
+                </p>
+
+                <p>
+                Indeed, Cammie ended up at the Lusty Lady in the first place because a friend of hers had worked
  there and she had been “enthralled by her stories about her job, her customers and the bizarre events
  she observed during her shifts”. Once there, she enjoyed meeting all the “curious characters”, telling
  the others to send any customers they couldn’t deal with to her: “the stranger the better”. This
@@ -183,8 +230,10 @@ const FiveDollarsThreeMinutes = () => {
  Slug, The Rulerman and a naughty policeman. After a particularly gruelling interaction with The
  Shitter, Cammie thinks to herself: “better than a creative writing class”. You can read all about their
  unorthodox merrymaking if you buy her book.
- 
- The discussion of this anthropological impulse leads me to another question I had had for her: is
+                </p>
+
+                <p>
+                The discussion of this anthropological impulse leads me to another question I had had for her: is
  photography inherently punk? By which I had meant, rather pleased with my idea, does the act of
  looking, of actively observing and recording — thereby asserting point of view — necessarily
  engender a critique of one’s environment? Does this bothering to look constitute a refusal to become
@@ -201,8 +250,10 @@ const FiveDollarsThreeMinutes = () => {
  grandiosity, her resisting the temptation of self-mythologisation, strikes me as exceedingly punk
  indeed, especially considering that she was doing what she was doing before the de-stigmatisation
  of sex work had even really begun.
- 
- This discussion led me to my next question: is sex work inherently punk? To this, she responds, “it
+                </p>
+
+                <p>
+                This discussion led me to my next question: is sex work inherently punk? To this, she responds, “it
  was for me [...] for me, becoming a stripper was an extension of my punk, fuck you, trying to nd the
  edges, see how far I could push myself to the edge without actually dropping out of school, because
  I was also getting a degree”, she laughs, “so being a stripper was like, oh, let’s see how far I can take
@@ -220,8 +271,11 @@ const FiveDollarsThreeMinutes = () => {
  the men wandering the hallways to come in and part with their money. Second, nding the best way
  to get them o while also trying to get them to stay longer and therefore pay more money”, and I
  guess, long enough for her to take their picture.
- 
- Sex work was also rebellion — and I wonder — maybe even revenge? In her essay, she explains how
+                </p>
+
+
+                <p>
+                Sex work was also rebellion — and I wonder — maybe even revenge? In her essay, she explains how
  she came to choose her stripper name: “My best friend in sixth grade was called Tasha. At her house
  we would watch, fascinated, as her mother prepared to go to work in the evening. She pulled on
  shiny spandex disco leggings, a tube top, a giant blonde afro wig, stuck on false eyelashes and wore
@@ -236,8 +290,10 @@ const FiveDollarsThreeMinutes = () => {
  proximity, at its origin, to the family home, and how far away from this home it took itself, not to
  mention the subversion of parental and patriarchal power enacted by calling yourself by a name
  other than the one you’re given. Or maybe I’m getting carried away.
- 
- Regardless, some kind of subversion or another is enacted by the photographs here, in their
+                </p>
+
+                <p>
+                Regardless, some kind of subversion or another is enacted by the photographs here, in their
  portrayal of “hard cocks”, symbols that here challenge the status quo by gesturing at male need, and
  what’s more, this need as an idea in the mind of a woman. Cammie is making visible the obverse of
  the sex worker coin: men, and their need of women. When asking the artist Michael Petry why he
@@ -253,8 +309,10 @@ const FiveDollarsThreeMinutes = () => {
  up to them in a comforting state of double need. I wonder how many men would have run for the
  hills if it had been called the Lusty Bloke, how many would have felt shamed, disempowered,
  feminised even, and would have stayed at home for their festivities various.
- 
- When I ask Cammie about the need to perform gender at the club, she responds “there were so
+                </p>
+
+                <p>
+                When I ask Cammie about the need to perform gender at the club, she responds “there were so
  many dierent ways to be there, but for me I had to pretend to be a feminine woman, which isn’t
  that unusual, lots of women have to do that in their lives don’t they?”, pulling out not the extremity of
  dierence between sex work and domestic life, but instead its parallels, the ways in which women
@@ -269,47 +327,18 @@ const FiveDollarsThreeMinutes = () => {
  and the whole rich, delicate, touching and obscene complex of human interaction that outside of the 
  strip club is camouaged by convention, by propriety. The club is a microcosm of life outside of
  itself.
- 
- So nally, as she puts it in her essay, “We are so used to seeing women as the object of the male gaze.
+                </p>
+
+                <p>
+                So nally, as she puts it in her essay, “We are so used to seeing women as the object of the male gaze.
  When I turned my camera on the men in the Private Pleasures booth, I violated an unspoken rule of
  the patriarchy - that the male is the owner of the gaze, never the object of it”. Cammie has reclaimed
  this gaze on all of our behalves, and given us something truly interesting to look at with it, striking
  as she does the right balance: meaning is conveyed, but not a meaning too easily closable, inciting us
  to linger on the photographs, to keep looking at them, like the men she had to get o, but not so
  quickly that she’d miss the opportunity to take their picture.
- `;
+                </p>
 
-
-  return (
-    <div className="container py-5 mt-2 work-detail">
-      <div className="row justify-content-center">
-        <div className="col-lg-8 col-md-10 col-sm-12 mx-auto text-start">
-          
-          {/* Title & Intro Text */}
-          <h2 
-            className="py-2"
-            style={{
-              fontWeight: 100,
-              fontSize: "1.5rem",  // Match Navbar
-            }}
-          >
-          5 Dollars for 3 Minutes
-          </h2> 
-          <p className="">
-            Profile on Cammie Toloui for <i>A Nice Magazine</i>
-          </p>
-
-          {/* First Image (Standalone) */}
-          <div className="text-center mb-4">
-            <img src={img1} alt="Five Dollars Three Minutes 1" className="img-fluid" style={{ maxWidth: "100%" }} />
-          </div>
-
-          {/* Expandable Text Section - Restricting width to match the image */}
-          <div className="mx-auto text-start" style={{ maxWidth: "100%", width: "fit-content" }}>
-            <p style={{ whiteSpace: "pre-line" }}>
-              { fullText }
-            </p>
-            
           </div>
 
           {/* Remaining Images */}
