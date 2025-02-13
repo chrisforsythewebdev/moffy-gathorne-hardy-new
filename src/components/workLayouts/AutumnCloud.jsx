@@ -79,8 +79,8 @@ const AutumnCloud = () => {
                   space where each kind of love is elevated, has more made of it, is imbued with a sublimity engendered 
                   by their interaction. A scene of the most beautiful garden is only made more beautiful by the presence 
                   of two lovers within it. Nature is lent greater grace when imagined as an idea in the mind of the loved 
-                  person; the moon possesses more of its mystical, moonlike beauty—“they’re looking at the same moon 
-                  as me”—and the most loved person is made more wholly themselves, that is to say, more perfect, when 
+                  person; the moon possesses more of its mystical, moonlike beauty — “they’re looking at the same moon 
+                  as me” — and the most loved person is made more wholly themselves, that is to say, more perfect, when 
                   set against a backdrop of untouched natural beauty.
                 </p>
 
@@ -100,7 +100,11 @@ const AutumnCloud = () => {
                   Here love is a revolutionary gesture, a subversion of the powers of the hideous cleanliness of the 
                   One State. Where all is blue, transparent, made of glass, their love is a scratch on its surface, grit in 
                   a body of clear water, the smell of sweat and skin penetrating purified air—and in many ways, it is 
-                  worship at the temple of the present.
+                  worship at the temple of the present. Behind the wall, their reason for being was either contribution
+                  to the future of the One State, or to its collapse — a contribution that stretched through time
+                  eternally, each moment bearing the weight of its consciousness of the next: “The number of
+                  numbers is infinite [...] there isn’t a final one. Final things are for children because infinity scares
+                  children and it is important that children sleep peacefully at night”.
                 </p>
 
                 <p>
@@ -116,7 +120,11 @@ const AutumnCloud = () => {
                   Faye’s paintings are moving, too, in this way—they express a purity of moment, of instance, and 
                   thus gesture at the innocence of prelapsarian being. Her subjects seem to exist outside of any 
                   observable time. If there are no consequences, love is its own reward—much like the fish, which is 
-                  not here expected to feed the five thousand but is manifest as its own small miracle.
+                  not here expected to feed the five thousand but is manifest as its own small miracle. This fish,
+                  seemingly submerged, held beneath a threshold, may suggest interment, but unlike in Goya’s “The
+                  Burial of the Sardine”, does not serve to ritualise a death or an ending — but modelled on a balloon
+                  fish, floating, held down by a lover of Faye’s — in a slippage of meaning, articulates the possibility
+                  instead of life’s buoyancy, a performance of the transformative powers of love.
                 </p>
 
                 <p>
@@ -124,6 +132,17 @@ const AutumnCloud = () => {
                   tenderness engenders a closeness to it. Neither nakedness nor intimacy are the objects of shame, so 
                   no protection of modesty, no fig leaf is erected between us and the painting to inhibit our intimacy 
                   with it. She makes of us a twosome, a onesome, inviting us into this relation with her work.
+                </p>
+
+                <p>
+                  (The dandelion is the trace, like an eyelash, of the wishing that made the contents of the world
+                  disperse, like its seeds, bringing time into being with its desire for the future)
+                </p>
+
+                <p>
+                  But Faye is a lover of dandelions, she has been known to rescue them from the park, keep them safe
+                  like treasure in a glass of water, preserve the unity of a small world that would be scattered by ideas
+                  about tomorrow, and suspend them in the moment eternal of the painting.
                 </p>
 
           </div>
