@@ -62,9 +62,6 @@ const SoftFurnishing = () => {
                   its entrance to a body, its status altered both immediately and irrevocably. It is a post-state that, like 
                   death, is irreversible. Doubly true when it has been purged or excreted, matter that has made these 
                   two journeys of ingestion and expulsion is elevated to the stuff of obscenity.
-                </p>
-
-                <p>
                   The culmination of our anxieties surrounding embodiment, here is the material evidence of our 
                   human wretchedness, the shadow self, made solid, as if contained within the gesture of defecation is 
                   some essential truth about the shameful nature of our existence; the secret we cannot keep and are 
@@ -100,8 +97,7 @@ const SoftFurnishing = () => {
                   the materials, the artist has given them this liberty. While bottles that hold perfume traditionally act 
                   as barriers, revealing the essence of their contents only upon the breaking of a seal, Julia’s function 
                   to announce both their visible presence and their smell concomitantly.
-                  Their depths and their surface
-                  are a continuum, their scent just as much outside as any inside that can be meaningfully referred to.
+                  Their depths and their surface are a continuum, their scent just as much outside as any inside that can be meaningfully referred to.
                   Thus the memories recalled to the artist by various smells are made plain, stripped of their
                   protective coverings, reeking of the associations attendant on female sexuality - expectations of
                   cleanliness, hairlessness, sugary, floral, cosmetic domestication.

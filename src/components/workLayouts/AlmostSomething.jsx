@@ -47,8 +47,11 @@ const AlmostSomething = () => {
               and loose-fitting trousers. One informs the meaning of the other, the corporate upper dignifying the
               jeans and relaxed shoes, while the bottom lends some welcome levity. This principle I believe is
               called ‘smart casual’ — whoever coined the term is surely due their prize for subtlety of thought.
-              This is <i>almost</i> the entirety of the picture —
             </p>
+            <p>
+              This is <i>almost</i> the entirety of the picture —
+            </p>  
+            
 
                 <p>
                   Separating the jackets and jeans, the shirts and tracksuits, is the cross section of a tabletop, which

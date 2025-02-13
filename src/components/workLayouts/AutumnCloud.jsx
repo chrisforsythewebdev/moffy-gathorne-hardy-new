@@ -61,7 +61,7 @@ const AutumnCloud = () => {
                 <p>(Dandelions, mind you...)</p>
 
                 <p>
-                  Indeed, for the ‘I’ of the enunciation of <i>If You Go Away</i>, the natural world itself is constructed by 
+                  Indeed, for the ‘I’ of the enunciation of "If You Go Away", the natural world itself is constructed by 
                   the love between two people; it disintegrates in the absence of this love, its crucial elements ceasing 
                   to be—the sun disappears and birds stop flying. The space inhabited is constituted, between two 
                   people, by its being shared. Most painfully, when they dare tentatively to hope, from “an empty 
@@ -79,8 +79,8 @@ const AutumnCloud = () => {
                   space where each kind of love is elevated, has more made of it, is imbued with a sublimity engendered 
                   by their interaction. A scene of the most beautiful garden is only made more beautiful by the presence 
                   of two lovers within it. Nature is lent greater grace when imagined as an idea in the mind of the loved 
-                  person; the moon possesses more of its mystical, moonlike beauty — “they’re looking at the same moon 
-                  as me” — and the most loved person is made more wholly themselves, that is to say, more perfect, when 
+                  person; the moon possesses more of its mystical, moonlike beauty — <i>“they’re looking at the same moon 
+                  as me”</i> — and the most loved person is made more wholly themselves, that is to say, more perfect, when 
                   set against a backdrop of untouched natural beauty.
                 </p>
 
