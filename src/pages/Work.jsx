@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import img1 from "../images/five-dollars-three-minutes.png";
-import img2 from "../images/autumn-cloud/Faye-Wei-Wei-D.JPG";
+import img2 from "../images/autumn-cloud/Faye-Wei-Wei-B.JPG";
 import img3 from "../images/soft-furnishings/JT-Soft-furnishing-B.jpg";
 import img4 from "../images/almost-something.png";
 import img5 from "../images/valley-of-the-dolls/JT-Valley-of-the-Dolls-C.jpg";

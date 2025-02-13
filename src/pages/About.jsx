@@ -8,8 +8,7 @@ const About = () => {
       <div className="row">
         <div className="col-md-6 mt-5 ms-md-5 mt-md-5">
           <h2 className="mb-4" style={{ fontSize: "1rem", lineHeight: "1.3", textAlign: "left" }}>
-            Moffy Gathorne-Hardy is a London-born writer, art theorist, and cultural commentator with one
-            foot in musicology and another in women’s studies.
+            Moffy Gathorne-Hardy is a London-born art writer and cultural commentator with one foot in musicology and another in women’s studies.
           </h2>
           <p style={{ fontSize: "1rem", lineHeight: "1.5", textAlign: "left" }}>
             Her undergraduate research focused on Eastern European literature, specifically the function of the
@@ -23,7 +22,7 @@ const About = () => {
       </div>
 
       {/* Additional Details */}
-      <div className="row mt-3">
+      <div className="row">
         <div className="col-md-5 ms-md-5">
           <p style={{ fontSize: "1rem", lineHeight: "1.5", textAlign: "left" }}>
             Her thinking and writing are largely informed by the decade she spent working as a model that led

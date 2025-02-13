@@ -88,9 +88,6 @@ const SoftFurnishing = () => {
                   says Freud. The oozing of Julia’s sculptures then - specifically her teeth, which wrenched from the 
                   comfort of the shared space of the mouth, stacked atop each other, abstracted and thus devoiced — 
                   has consequences for their status as containers.
-                </p>
-
-                <p>
                   While they absorb particles from their environment, so too their particles permeate the space 
                   around them. Try as they might, their attempts at containment ultimately fail; and their smell is an 
                   embodied, experiential reminder of this mechanism to the visitor, of the penetration of their own 
@@ -103,6 +100,11 @@ const SoftFurnishing = () => {
                   the materials, the artist has given them this liberty. While bottles that hold perfume traditionally act 
                   as barriers, revealing the essence of their contents only upon the breaking of a seal, Julia’s function 
                   to announce both their visible presence and their smell concomitantly.
+                  Their depths and their surface
+                  are a continuum, their scent just as much outside as any inside that can be meaningfully referred to.
+                  Thus the memories recalled to the artist by various smells are made plain, stripped of their
+                  protective coverings, reeking of the associations attendant on female sexuality - expectations of
+                  cleanliness, hairlessness, sugary, floral, cosmetic domestication.
                 </p>
 
                 <p>
@@ -110,20 +112,30 @@ const SoftFurnishing = () => {
                   herself living tomb by the repetitive gesture of swallowing her grief. These sculptures, then, enact a 
                   kind of reversal: a dispersal in all directions of the despair experienced by the subject of oppressive 
                   male expectation, of the female body that grieves its freedom.
-                </p>
-
-                <p>
                   These objects, detached torsos, breasts and stomachs, teeth, perfume bottles - not 
                   undomesticated but de-domesticated, defamiliarised — are made useless. These teeth do not enable 
                   speaking or eating, these breasts fail to transform into tits for another’s arousal, these bottles, 
                   emblematic accoutrements of female social and sexual existence, are unable to perfume the body. 
+                  When severed from their usual context, they
+                  are stripped of their utilitarian function. The consequence of this loss of utility is that they remain
+                  present only as lacunae in the environment that bore them, pointing ultimately to the ideologies and
+                  the set of conditions that gave rise to them, relegated to symbols that reveal the motivation behind
+                  their production. This is reflected in the bizarre status that mould and sculpture possess in relation
+                  to each other - the standard classification of signifier and signified here nonsensical - one borne
+                  from the other, immediately to render it useless.
                 </p>
 
                 <p>
-                  We are dealing ultimately with questions of inside and outside, of here and there, deixis of location 
-                  that have implications for identity, that differentiate between beauty and obscenity. But Julia’s 
-                  sculptures are neither an in nor an out — instead, inscribed on their surface is a sustained tension 
-                  between these two states of being, a troubling of their mutual exclusion.
+                  We are dealing ultimately with questions of inside and outside, of here and there, deixis of location
+                  that have implication for identity, that differentiate between beauty and obscenity. But Julia’s
+                  sculptures are neither an in nor an out — instead, inscribed on their surface is a sustained tension
+                  between these two states of being, a troubling of their mutual exclusion. While the food has not
+                  been eaten, neither is it static like Barthes’ abandoned woman. It has been shaped by hands,
+                  absorbed particles of skin, hair and dust. Yet, this food, normally made obscene by its interactions
+                  with a body, retains a disconcerting visual appeal. Saccharine pinks and purples, soft edges so
+                  suggestive of seductive, yielding femininity, endure despite the decaying of the object. What Julia
+                  has achieved here is a removal of the bar of antithesis that keeps beauty and obscenity apart,
+                  endlessly evoking this binary in order to destroy it.
                 </p>
 
           </div>
