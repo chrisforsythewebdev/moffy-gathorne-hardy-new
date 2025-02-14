@@ -1,0 +1,15 @@
+{
+    "redirects": [
+      {
+        "source": "www.moffygathornehardy.vercel.app",
+        "destination": "/",
+        "statusCode": 308
+      },
+      {
+        "source": "www.moffygathornehardy.com",
+        "destination": "/",
+        "statusCode": 308
+      }
+    ]
+  }
+  
