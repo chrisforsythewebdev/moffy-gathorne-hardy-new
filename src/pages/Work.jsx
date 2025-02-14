@@ -53,17 +53,10 @@ const Work = () => {
     }
   };
 
-  const handleClick = (work, event) => {
-    if (isMobile) {
-      if (hoveredWork === work) {
-        navigate(`/work/${encodeURIComponent(work.title)}`);
-      } else {
-        setHoveredWork(work);
-      }
-    } else {
-      navigate(`/work/${encodeURIComponent(work.title)}`);
-    }
+  const handleClick = (work) => {
+    navigate(`/work/${encodeURIComponent(work.title)}`);
   };
+  
 
   return (
     <div className="container d-flex flex-column justify-content-start vh-100" style={{ marginLeft: "10vw", marginTop: "10vh" }}>
